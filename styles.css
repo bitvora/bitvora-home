@@ -24,6 +24,12 @@ header {
   display: none;
 }
 
+.logo {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
 .logo img {
   width: 100px;
   height: 50px;
@@ -177,7 +183,7 @@ section {
 .modal-content {
   background-color: #0c0911;
   margin: 35% auto;
-  padding: 10px ;
+  padding: 10px;
   border: 1px solid #100c16;
   width: 80%;
   max-width: 600px;
@@ -296,6 +302,12 @@ section {
 }
 
 @media (min-width: 576px) {
+  .logo {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  }
+
   header {
     padding: 25px;
     height: 80px;
@@ -335,10 +347,16 @@ section {
 }
 
 @media (min-width: 768px) {
+  .logo {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+  }
+
   .modal-content {
     background-color: #0c0911;
     margin: 15% auto;
-    padding: 10px ;
+    padding: 10px;
     border: 1px solid #100c16;
     width: 80%;
     max-width: 600px;
@@ -352,7 +370,7 @@ section {
     width: 100%;
     padding: 10px 30px;
     position: relative;
-    height: 130px;
+    height: 150px;
     overflow: hidden;
     font-family: 'Inter', sans-serif;
   }
@@ -511,7 +529,6 @@ section {
     transform: translateX(-50%);
     width: 25px;
     height: 1px;
-    /* background-color: #5c487f; */
     background: linear-gradient(to right, #2a203d, #5c487f, #2a203d);
 
     box-shadow: 0 0 10px 2px #2a203d;
@@ -686,7 +703,6 @@ section {
     transform: translateX(-50%);
     width: 25px;
     height: 1px;
-    /* background-color: #5c487f; */
     background: linear-gradient(to right, #2a203d, #5c487f, #2a203d);
 
     box-shadow: 0 0 10px 2px #2a203d;
@@ -699,11 +715,17 @@ section {
 }
 
 @media (min-width: 1200px) {
+  .logo {
+    position: absolute;
+    left: 100px;
+    top: 30px;
+  }
+
   header {
     width: 100%;
     padding: 40px 100px;
     position: relative;
-    height: 120px;
+    height: 150px;
     overflow: hidden;
     font-family: 'Inter', sans-serif;
   }
@@ -736,12 +758,14 @@ section {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
     letter-spacing: -0.02em;
     color: #efedf1;
     margin-bottom: 10px;
     font-family: 'Inter', sans-serif;
+    margin-top: 0;
+    padding-top: 3%;
   }
 
   h1 span {
@@ -765,7 +789,7 @@ section {
   section {
     width: 100%;
     height: 100%;
-    padding-top: 10px;
+    padding-top: 0px;
     justify-content: center;
     text-align: center;
   }
@@ -790,7 +814,7 @@ section {
   }
 
   .button-group {
-    margin: 70px auto;
+    margin: 20px auto;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -852,7 +876,6 @@ section {
     transform: translateX(-50%);
     width: 25px;
     height: 1px;
-    /* background-color: #5c487f; */
     background: linear-gradient(to right, #2a203d, #5c487f, #2a203d);
 
     box-shadow: 0 0 10px 2px #2a203d;
@@ -865,11 +888,17 @@ section {
 }
 
 @media (min-width: 1400px) {
+  .logo {
+    position: absolute;
+    left: 6%;
+    top: 80px;
+  }
+
   header {
     width: 100%;
-    padding: 40px 100px;
+    padding: 50px 120px;
     position: relative;
-    height: 120px;
+    height: 17%;
     overflow: hidden;
     font-family: 'Inter', sans-serif;
   }
@@ -890,7 +919,7 @@ section {
     width: 100%;
     justify-content: center;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 0;
     background-image: url('/assets/bg.png');
     background-size: cover;
     background-position: center bottom;
@@ -902,11 +931,11 @@ section {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     color: #efedf1;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
     font-family: 'Inter', sans-serif;
   }
 
@@ -919,8 +948,8 @@ section {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 22px;
+    line-height: 40px;
     text-align: center;
     color: #9791a1;
     letter-spacing: 0.055em;
@@ -931,7 +960,7 @@ section {
   section {
     width: 100%;
     height: 100%;
-    padding-top: 10px;
+    padding-top: 3%;
     justify-content: center;
     text-align: center;
   }
@@ -948,7 +977,7 @@ section {
   }
 
   .button-group {
-    margin: 60px auto;
+    margin: 2% auto;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -1010,7 +1039,6 @@ section {
     transform: translateX(-50%);
     width: 25px;
     height: 1px;
-    /* background-color: #5c487f; */
     background: linear-gradient(to right, #2a203d, #5c487f, #2a203d);
 
     box-shadow: 0 0 10px 2px #2a203d;
