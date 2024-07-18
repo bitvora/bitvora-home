@@ -48,17 +48,35 @@
           <span class="close">&times;</span>
 
           <div class="form-content">
-            <h4 class="form-header">Enter your email address to join beta</h4>
+            <h4 class="form-header">Request Access to the Beta:</h4>
 
             <form class="form" id="emailForm">
+              <div>
+                <label for="fullname">Full Name:</label>
+                <div>
+                  <input type="text" id="fullname" name="fullname" required />
+                </div>
+              </div>
               <div>
                 <label for="email">Email Address</label>
                 <div>
                   <input type="email" id="email" name="email" required />
                 </div>
               </div>
+              <div>
+                <label for="company_url">Company URL:</label>
+                <div>
+                  <input type="text" id="company_url" name="company_url" required />
+                </div>
+              </div>
+              <div>
+                <label for="job_title">Job Title:</label>
+                <div>
+                  <input type="text" id="job_title" name="job_title" required />
+                </div>
+              </div>
 
-              <button class="join" type="submit">Join</button>
+              <button class="join" type="submit">Go!</button>
             </form>
           </div>
         </div>

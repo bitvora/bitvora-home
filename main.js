@@ -24,6 +24,9 @@ document.getElementById('emailForm').addEventListener('submit', function (event)
   event.preventDefault();
 
   const email = document.getElementById('email').value;
+  const job_title = document.getElementById('job_title').value;
+  const fullname = document.getElementById('fullname').value;
+  const company_url = document.getElementById('company_url').value;
   const button = document.querySelector('.join');
   const loader = document.createElement('div');
   loader.className = 'loader';
@@ -35,7 +38,12 @@ document.getElementById('emailForm').addEventListener('submit', function (event)
     headers: {
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify({ email: email })
+    body: JSON.stringify({
+      email: email,
+      job_title: job_title,
+      fullname: fullname,
+      company_url: company_url
+    })
   })
     .then((response) => {
       if (!response.ok) {
