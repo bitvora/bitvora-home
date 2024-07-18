@@ -980,6 +980,8 @@ section {
     width: 75%;
     margin: auto;
     height: 600px;
+    max-height: 600px;
+    max-width: 1500px;
   }
 
   .app-img img {
