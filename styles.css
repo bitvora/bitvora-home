@@ -1,7 +1,5 @@
 body,
 html {
-  max-width: 1920px;
-  max-height: 1080px;
   margin: 0 auto;
   padding: 0;
   box-shadow: none;
@@ -13,11 +11,15 @@ html {
   font-family: 'Inter', sans-serif;
 }
 
+.container {
+  max-height: 1080px;
+}
+
 header {
   width: 100%;
   padding: 20px;
   position: relative;
-  height: 50px;
+  height: 80px;
   overflow: hidden;
   font-family: 'Inter', sans-serif;
 }
@@ -28,8 +30,8 @@ header {
 
 .logo {
   position: absolute;
-  left: 30px;
-  top: 30px;
+  left: 20px;
+  top: 20px;
 }
 
 .logo img {
@@ -53,7 +55,7 @@ h1 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 37px;
   text-align: center;
   letter-spacing: -0.02em;
   color: #efedf1;
@@ -907,7 +909,7 @@ section {
     width: 100%;
     padding: 50px 120px;
     position: relative;
-    height: 17%;
+    height: 200px;
     overflow: hidden;
     font-family: 'Inter', sans-serif;
   }
@@ -986,7 +988,7 @@ section {
   }
 
   .button-group {
-    margin: 2% auto;
+    margin: 40px auto;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -1066,15 +1068,15 @@ section {
 @media (min-width: 1920px) {
   .logo {
     position: absolute;
-    left: 6%;
-    top: 80px;
+    left: 40px;
+    top: 40px;
   }
 
   header {
     width: 100%;
     padding: 50px 120px;
     position: relative;
-    height: 17%;
+    height: 200px;
     overflow: hidden;
     font-family: 'Inter', sans-serif;
   }
@@ -1153,7 +1155,7 @@ section {
   }
 
   .button-group {
-    margin: 2% auto;
+    margin: 60px auto;
     display: flex;
     gap: 10px;
     justify-content: center;
