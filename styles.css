@@ -233,6 +233,7 @@ section {
 
 .form input {
   margin-top: 10px;
+  margin-bottom: 20px;
   background: transparent;
   border: 1px solid #9791a1;
   color: #efedf1;
@@ -719,6 +720,10 @@ section {
 }
 
 @media (min-width: 1200px) {
+  .modal-content {
+    margin: 60px auto;
+  }
+
   .logo {
     position: absolute;
     left: 100px;
@@ -1051,6 +1056,10 @@ section {
 
   .links:hover::before {
     height: 2px;
+  }
+
+  .modal-content {
+    margin: 80px auto;
   }
 }
 
