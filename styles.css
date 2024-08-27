@@ -20,3 +20,15 @@ html {
 .why-choose-bitvora {
   background: linear-gradient(289.08deg, rgba(49, 43, 59, 0.1) 23.9%, rgba(12, 9, 17, 0.1) 95.21%);
 }
+
+.pricing-list {
+  list-style-type: none;
+}
+.pricing-list li {
+  text-indent: -1em;
+  padding-left: 1.5em;
+}
+.pricing-list li::before {
+  content: '•';
+  padding-right: 0.5em;
+}
