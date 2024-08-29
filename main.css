@@ -1354,6 +1354,44 @@ body::-webkit-scrollbar-track {
   color: #c69a71;
 }
 
+@media (min-width: 1536px) {
+  .\32xl\:container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media (min-width: 640px) {
+    .\32xl\:container {
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .\32xl\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .\32xl\:container {
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .\32xl\:container {
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .\32xl\:container {
+      max-width: 1536px;
+    }
+  }
+}
+
 .hover\:bg-\[\#443361\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(68 51 97 / var(--tw-bg-opacity));
@@ -1517,6 +1555,10 @@ body::-webkit-scrollbar-track {
 
   .sm\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .sm\:gap-2 {
+    gap: 0.5rem;
   }
 
   .sm\:px-2 {
