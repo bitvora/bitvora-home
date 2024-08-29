@@ -96,3 +96,8 @@ body::-webkit-scrollbar-track {
   height: 5px;
   border-radius: 5px;
 }
+
+.nav-link.active {
+  color: #c69a71;
+}
+
