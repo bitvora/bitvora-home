@@ -10,7 +10,7 @@ module.exports = {
         transparent: 'transparent',
         white: '#EFEDF1',
         gold: '#C69A71',
-        light: '#9791A1',
+        light: '#B4AFBD',
         inputBorder: '#4B4653',
         primary: '#5C487F',
         purple: '#9381B1',

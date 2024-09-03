@@ -32,6 +32,36 @@ document.addEventListener('DOMContentLoaded', () => {
   setupObserver('section-1', 'dots-1');
   setupObserver('section-2', 'dots-2');
 
+  const pricingItems = document.querySelectorAll('.pricing-item');
+
+  function setActiveItem(activeItem) {
+    pricingItems.forEach((item) => {
+      item.classList.remove('active-pricing');
+      item.querySelector('.active-link').classList.add('hidden');
+    });
+    activeItem.classList.add('active-pricing');
+    activeItem.querySelector('.active-link').classList.remove('hidden');
+  }
+
+  pricingItems.forEach((item) => {
+    item.addEventListener('mouseenter', function () {
+      setActiveItem(this);
+    });
+
+    item.addEventListener('click', function () {
+      setActiveItem(this);
+    });
+  });
+
+  const pricingSection = document.getElementById('section-2');
+  pricingSection.addEventListener('mouseleave', function () {
+    if (!document.querySelector('.pricing-item.active-pricing')) {
+      setActiveItem(pricingItems[0]);
+    }
+  });
+
+  setActiveItem(pricingItems[0]);
+
   function highlightActiveLink() {
     const currentPath = window.location.pathname;
     const currentHash = window.location.hash;

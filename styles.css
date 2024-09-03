@@ -14,6 +14,7 @@ html {
   height: 100vh;
   overflow-x: hidden;
   font-family: 'Inter', sans-serif;
+  font-size: 105%;
 }
 
 p {
@@ -34,8 +35,8 @@ body::-webkit-scrollbar-track {
 }
 
 .logo img {
-  width: 100px;
-  height: 60px;
+  width: 120px;
+  height: 70px;
 }
 
 .why-choose-bitvora {
@@ -45,13 +46,9 @@ body::-webkit-scrollbar-track {
 .pricing-list {
   list-style-type: none;
 }
+
 .pricing-list li {
-  text-indent: -1em;
-  padding-left: 1.5em;
-}
-.pricing-list li::before {
-  content: '•';
-  padding-right: 0.5em;
+  margin-bottom: 10px;
 }
 
 .hide-scrollbar::-webkit-scrollbar {
@@ -80,23 +77,97 @@ body::-webkit-scrollbar-track {
   border-radius: 5px;
 }
 
-.pricing-dot {
-  width: 8px;
-  height: 8px;
-  background-color: #201d24;
-  border-radius: 50%;
-  margin: 0 4px;
-  transition: transform 0.3s, background-color 0.3s;
-}
-
-.pricing-dot.active {
-  background-color: #78619e;
-  transform: scale(1.5);
-  width: 15px;
-  height: 5px;
-  border-radius: 5px;
-}
-
 .nav-link.active {
   color: #c69a71;
+}
+
+.pricing-item {
+  cursor: pointer !important;
+  height: 560px !important;
+  position: relative;
+}
+
+.active-pricing {
+  background-color: #453361 !important;
+  border-color: #453361 !important;
+  transition: all 0.8s ease;
+}
+
+.active-pricing h5,
+.active-pricing h6 {
+  font-weight: 500;
+  transition: font-weight 0.5s;
+}
+
+.active-pricing li {
+  color: #efedf1 !important;
+}
+
+.active-link {
+  transition: opacity 0.8s ease;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  width: calc(100% - 40px) !important;
+}
+
+.active-link.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (min-width: 576px) {
+  .logo img {
+    width: 150px;
+    height: 80px;
+  }
+
+  .pricing-item {
+    height: 580px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo img {
+    width: 120px;
+    height: 60px;
+  }
+
+  .pricing-item {
+    height: 580px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo img {
+    width: 150px;
+    height: 80px;
+  }
+
+  .pricing-item {
+    height: 580px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo img {
+    width: 140px;
+    height: 65px;
+  }
+
+  .pricing-item {
+    height: 580px !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  .logo img {
+    width: 200px;
+    height: 75px;
+  }
+
+  .pricing-item {
+    height: 580px !important;
+  }
 }
