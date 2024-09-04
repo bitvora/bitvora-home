@@ -15,7 +15,8 @@ module.exports = {
         primary: '#5C487F',
         purple: '#9381B1',
         black: '#0D0C0E',
-        text: '#312E36'
+        text: '#312E36',
+        darkBg: '#2e2345'
       }
     }
   },

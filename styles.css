@@ -81,9 +81,22 @@ body::-webkit-scrollbar-track {
   color: #c69a71;
 }
 
+.pricing-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.pricing-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-item > div:last-child {
+  margin-top: auto;
+}
+
 .pricing-item {
   cursor: pointer !important;
-  height: 560px !important;
   position: relative;
 }
 
@@ -95,7 +108,7 @@ body::-webkit-scrollbar-track {
 
 .active-pricing h5,
 .active-pricing h6 {
-  font-weight: 500;
+  font-weight: 600;
   transition: font-weight 0.5s;
 }
 
@@ -105,26 +118,14 @@ body::-webkit-scrollbar-track {
 
 .active-link {
   transition: opacity 0.8s ease;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  right: 20px;
-  width: calc(100% - 40px) !important;
-}
-
-.active-link.hidden {
-  opacity: 0;
   pointer-events: none;
+  display: flex;
 }
 
 @media (min-width: 576px) {
   .logo img {
     width: 150px;
     height: 80px;
-  }
-
-  .pricing-item {
-    height: 580px !important;
   }
 }
 
@@ -133,20 +134,12 @@ body::-webkit-scrollbar-track {
     width: 120px;
     height: 60px;
   }
-
-  .pricing-item {
-    height: 580px !important;
-  }
 }
 
 @media (min-width: 992px) {
   .logo img {
     width: 150px;
     height: 80px;
-  }
-
-  .pricing-item {
-    height: 580px !important;
   }
 }
 
@@ -155,19 +148,11 @@ body::-webkit-scrollbar-track {
     width: 140px;
     height: 65px;
   }
-
-  .pricing-item {
-    height: 580px !important;
-  }
 }
 
 @media (min-width: 1500px) {
   .logo img {
     width: 200px;
     height: 75px;
-  }
-
-  .pricing-item {
-    height: 580px !important;
   }
 }

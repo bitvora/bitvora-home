@@ -15,12 +15,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
-        const index = entry.target.getAttribute('data-index');
         if (entry.isIntersecting) {
+          const index = entry.target.getAttribute('data-index');
           dots.forEach((dot) => dot.classList.remove('active'));
           const activeDot = document.querySelector(`#${dotsId} .dot[data-dot="${index}"]`);
           if (activeDot) {
             activeDot.classList.add('active');
+          }
+
+          if (sectionId === 'section-2') {
+            setActiveItem(entry.target);
           }
         }
       });
@@ -37,10 +41,10 @@ document.addEventListener('DOMContentLoaded', () => {
   function setActiveItem(activeItem) {
     pricingItems.forEach((item) => {
       item.classList.remove('active-pricing');
-      item.querySelector('.active-link').classList.add('hidden');
+      // item.querySelector('.active-link').classList.add('hidden');
     });
     activeItem.classList.add('active-pricing');
-    activeItem.querySelector('.active-link').classList.remove('hidden');
+    // activeItem.querySelector('.active-link').classList.remove('hidden');
   }
 
   pricingItems.forEach((item) => {
