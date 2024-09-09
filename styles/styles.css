@@ -121,8 +121,8 @@ body::-webkit-scrollbar-track,
 
 .active-link {
   transition: opacity 0.8s ease;
-  pointer-events: none;
   display: flex;
+  z-index: 1000 !important;
 }
 
 .tos {
