@@ -851,7 +851,7 @@
         expires = '; expires=' + date.toUTCString();
       }
       document.cookie =
-        name + '=' + value + expires + '; path=/; domain=.bitvora.com; SameSite=None';
+        name + '=' + value + expires + '; path=/; domain=.bitvora.com; SameSite=None; Secure';
     }
 
     const referralCode = getQueryParam('r');
