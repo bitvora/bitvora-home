@@ -740,8 +740,7 @@
       <div class="flex w-full mt-2 pt-[20px] pb-[20px] px-6 justify-between sm:hidden">
         <div>
           <a href="/terms-of-service.html"
-            class="text-white font-bold text-sm text-left capitalize mb-2 hover:text-light">Terms of
-            Service</a>
+            class="text-white font-bold text-sm text-left capitalize mb-2 hover:text-light">Terms of Service</a>
         </div>
 
         <div>
@@ -838,6 +837,29 @@
     </section>
   </footer>
 
+  <script>
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    function setCookie(name, value, days) {
+      let expires = '';
+      if (days) {
+        const date = new Date();
+        date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+        expires = '; expires=' + date.toUTCString();
+      }
+      document.cookie =
+        name + '=' + value + expires + '; path=/; domain=.bitvora.com; SameSite=None';
+    }
+
+    const referralCode = getQueryParam('r');
+
+    if (referralCode) {
+      setCookie('referral_code', referralCode, 30);
+    }
+  </script>
   <script src="/js/main.js"></script>
 </body>
 
