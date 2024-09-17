@@ -1,0 +1,14 @@
+{
+  "names": {
+    "_": "8ad8f1f78c8e11966242e28a7ca15c936b23a999d5fb91bfe4e4472e2d6eaf55",
+    "nostr": "8ad8f1f78c8e11966242e28a7ca15c936b23a999d5fb91bfe4e4472e2d6eaf55"
+  },
+  "relays": {
+    "8ad8f1f78c8e11966242e28a7ca15c936b23a999d5fb91bfe4e4472e2d6eaf55": [
+      "wss://wot.utxo.one",
+      "wss://frens.utxo.one",
+      "wss://wot.nostr.party",
+      "wss://nostrelites.org"
+    ]
+  }
+}
