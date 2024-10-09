@@ -17,6 +17,10 @@ html {
   font-size: 105%;
 }
 
+#hero-section {
+  z-index: 100000 !important;
+}
+
 p {
   font-weight: 500;
 }
