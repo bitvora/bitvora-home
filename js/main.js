@@ -146,7 +146,7 @@ document.getElementById('emailForm').addEventListener('submit', function (event)
   button.appendChild(loader);
   button.classList.add('button-disabled');
 
-  fetch('https://api.bitvora.com/sales', {
+  fetch('https://api.signet.bitvora.com/sales', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
