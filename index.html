@@ -19,21 +19,32 @@
 
   <meta name="keywords" content="bitvora" />
   <meta name="robots" content="index, follow" />
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const ogImageTag = document.createElement("meta");
+      ogImageTag.setAttribute("property", "og:image");
+      ogImageTag.setAttribute("content", window.location.origin + "/assets/bitvora.svg");
+      document.head.appendChild(ogImageTag);
+
+
+      const twitterImageTag = document.createElement("meta");
+      twitterImageTag.setAttribute("name", "twitter:image");
+      twitterImageTag.setAttribute("content", window.location.origin + "/assets/bitvora.svg");
+      document.head.appendChild(twitterImageTag);
+    });
+  </script>
+
   <meta property="og:title" content="Bitvora | Bitcoin & Lightning API" />
-
-  <meta property="og:image" content="assets/bitvora.svg" />
-  <meta property="og:url" content="https://bitvora.com" />
+  <meta property="og:url" content="https://signet.bitvora.com" />
   <meta property="og:type" content="website" />
-
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Bitvora | Bitcoin & Lightning API" />
-  <meta name="twitter:image" content="assets/bitvora.svg">
 
-  <meta name="twitter:image" content="/assets/favicon.ico" />
 
-  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
-  <link rel="canonical" href="https://bitvora.com" />
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+  <link rel="canonical" href="https://signet.bitvora.com" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -91,7 +102,7 @@
             complexities of infrastructure and node management.
           </p>
 
-          <a href="https://console.signet.bitvora.com/auth/signup" target="_blank" rel="noopener noreferrer"
+          <a href="#pricing"
             class="bg-primary text-white font-bold px-7 py-[18px] rounded-md text-[17px] mt-5 hover:bg-darkBg hidden lg:inline-block">Get
             Started for Free</a>
         </div>
