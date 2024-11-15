@@ -4,6 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const solutionsContainer = document.getElementById('solutions-container');
   const svgIcon = document.getElementById('svg-icon');
   const solutionsText = document.getElementById('solutions-link');
+  const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+  const mobileMenuIcon = document.getElementById('mobile-menu-icon');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const closeMobileMenu = document.getElementById('close-mobile-menu');
 
   let menuActive = false;
 
@@ -38,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   solutionsContainer.addEventListener('mouseenter', openMenu);
-
   solutionsContainer.addEventListener('mouseleave', () => {
     if (!menuActive) {
       closeMenu();
@@ -61,5 +64,38 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'Escape' && menuActive) {
       closeMenu();
     }
+  });
+
+  let mobileMenuActive = false;
+
+  function openMobileMenu() {
+    mobileMenu.classList.remove('hidden');
+    mobileMenuIcon.src = '/assets/close.svg';
+    mobileMenuActive = true;
+  }
+
+  function closeMobileMenuFunction() {
+    mobileMenu.classList.add('hidden');
+    mobileMenuIcon.src = '/assets/mobile-menu.svg';
+    mobileMenuActive = false;
+  }
+
+  mobileMenuToggle.addEventListener('click', () => {
+    if (!mobileMenuActive) {
+      openMobileMenu();
+    } else {
+      closeMobileMenuFunction();
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && mobileMenuActive) {
+      closeMobileMenuFunction();
+    }
+  });
+
+  const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+  mobileMenuLinks.forEach((link) => {
+    link.addEventListener('click', closeMobileMenuFunction);
   });
 });

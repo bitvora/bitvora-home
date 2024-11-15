@@ -291,9 +291,41 @@
         </div>
       </div>
 
-      <a href="https://console.signet.bitvora.com/auth/login"
-        class="text-white border-2 border-light hover:bg-darkBg hover:border-darkBg hover:font-medium border-opacity-20 px-5 py-2 md:px-4 lg:px-5 md:py-1.5 lg:py-2 2xl:px-6 2xl:py-3 rounded-md 2xl:rounded-xl text-[15px] md:text-[14px] lg:text-base 2xl:text-xl"
-        target="_blank" rel="noopener noreferrer">Log In</a>
+      <div class="flex items-center gap-3">
+        <a href="https://console.signet.bitvora.com/auth/login"
+          class="text-white border-2 border-light hover:bg-darkBg hover:border-darkBg hover:font-medium border-opacity-20 px-5 py-2 md:px-4 lg:px-5 md:py-1.5 lg:py-2 2xl:px-6 2xl:py-3 rounded-md 2xl:rounded-xl text-[15px] md:text-[14px] lg:text-base 2xl:text-xl"
+          target="_blank" rel="noopener noreferrer">Log In</a>
+
+        <button class="lg:hidden" id="mobile-menu-toggle">
+          <img src="/assets/mobile-menu.svg" id="mobile-menu-icon" />
+        </button>
+
+        <div id="mobile-menu"
+          class="fixed top-[100px] left-0 w-full h-full bg-[#100c16] text-white py-4 hidden z-[1000]">
+          <div class="h-full w-full">
+            <ul class="text-center">
+              <li class="mb-6 border-light border-b-[1px] border-opacity-15 pb-6"><a href="#home"
+                  class="text-light text-sm: sm:text-base hover:text-gold nav-link uppercase font-medium">Home</a>
+              </li>
+              <li class="mb-6 border-light border-b-[1px] border-opacity-15 pb-6"><a href="#product"
+                  class="text-light text-sm: sm:text-base hover:text-gold nav-link uppercase font-medium">Product</a>
+              </li>
+              <li class="mb-6 border-light border-b-[1px] border-opacity-15 pb-6"><a href="#pricing"
+                  class="text-light text-sm: sm:text-base hover:text-gold nav-link uppercase font-medium">Pricing</a>
+              </li>
+              <li class="mb-6 border-light border-b-[1px] border-opacity-15 pb-6"><a href="#developers"
+                  class="text-light text-sm: sm:text-base hover:text-gold nav-link uppercase font-medium">Developers</a>
+              </li>
+              <li class="mb-6 border-light border-b-[1px] border-opacity-15 pb-6 flex tex-center justify-center">
+                <p class="text-light text-sm: sm:text-base hover:text-gold nav-link uppercase font-medium flex gap-3 items-center">
+                  Solutions
+                  <img src='/assets/right.svg' class="h-3 w-3" />
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
   </div>
 
