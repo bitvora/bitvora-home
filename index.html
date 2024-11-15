@@ -70,13 +70,23 @@
 
         <div class="group hidden md:block" id="solutions-container">
           <a href="#solutions"
-            class="text-white text-[15px] md:text-base lg:text-base 2xl:text-xl hover:text-gold uppercase nav-link"
-            id="solutions-link">Solutions</a>
+            class="text-white text-[15px] md:text-base lg:text-base 2xl:text-xl hover:text-gold uppercase nav-link flex items-center gap-1"
+            id="solutions-link">
+            Solutions
+            <span id="svg-icon" class="ml-2">
+              <svg id="toggle-icon" width="19" height="18" viewBox="0 0 19 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.9287 6.375L9.67871 11.625L4.42871 6.375" stroke="currentColor" stroke-width="1.5"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
 
           <div
             class="absolute left-0 top-full w-screen bg-[#020204] bg-opacity-80 backdrop-blur-lg text-white py-4 hidden group-hover:block items-start px-6 shadow-lg z-[1000] border-y border-light border-opacity-20"
             id="dropdown-menu">
             <div class="grid grid-cols-9 gap-6 px-6 py-8">
+              <!-- rest of the menu -->
               <div class="col-span-3 px-4">
                 <h3
                   class="text-white text-xl sm:text-2xl 2xl:text-2xl mb-2 pb-2 font-normal md:font-semibold tracking-normal leading-tight">
