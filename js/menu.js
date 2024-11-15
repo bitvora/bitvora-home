@@ -7,6 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
   const mobileMenuIcon = document.getElementById('mobile-menu-icon');
   const mobileMenu = document.getElementById('mobile-menu');
+  const mobileSolutionsLinkText = document.getElementById('mobile-solutions-link');
+
+  if (window.location.pathname.startsWith('/solutions')) {
+    solutionsLink.style.color = '#C69A71';
+    mobileSolutionsLinkText.style.color = '#C69A71';
+
+  }
 
   let menuActive = false;
 

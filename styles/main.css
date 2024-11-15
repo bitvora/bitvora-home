@@ -874,6 +874,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .block {
   display: block;
 }
@@ -1581,6 +1585,10 @@ video {
   padding-top: 2.5rem;
 }
 
+.pt-12 {
+  padding-top: 3rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2273,6 +2281,14 @@ body::-webkit-scrollbar-track,
     margin-top: 75px;
   }
 
+  .sm\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .sm\:mt-8 {
+    margin-top: 2rem;
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -2311,6 +2327,34 @@ body::-webkit-scrollbar-track,
 
   .sm\:w-full {
     width: 100%;
+  }
+
+  .sm\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .sm\:w-\[\] {
+    width: ;
+  }
+
+  .sm\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .sm\:w-\[250px\] {
+    width: 250px;
+  }
+
+  .sm\:w-\[60\%\] {
+    width: 60%;
+  }
+
+  .sm\:w-\[90\%\] {
+    width: 90%;
+  }
+
+  .sm\:w-\[80\%\] {
+    width: 80%;
   }
 
   .sm\:min-w-\[360px\] {
@@ -2439,6 +2483,10 @@ body::-webkit-scrollbar-track,
 
   .sm\:pt-\[75px\] {
     padding-top: 75px;
+  }
+
+  .sm\:pt-8 {
+    padding-top: 2rem;
   }
 
   .sm\:text-left {
@@ -2659,6 +2707,14 @@ body::-webkit-scrollbar-track,
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .md\:w-\[\%\] {
+    width: %;
   }
 
   .md\:min-w-\[unset\] {
@@ -3146,6 +3202,10 @@ body::-webkit-scrollbar-track,
     justify-content: flex-start;
   }
 
+  .lg\:justify-end {
+    justify-content: flex-end;
+  }
+
   .lg\:justify-center {
     justify-content: center;
   }
@@ -3250,6 +3310,21 @@ body::-webkit-scrollbar-track,
   .lg\:py-\[18px\] {
     padding-top: 18px;
     padding-bottom: 18px;
+  }
+
+  .lg\:px-\[120px\] {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .lg\:px-\[100px\] {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .lg\:px-\[130px\] {
+    padding-left: 130px;
+    padding-right: 130px;
   }
 
   .lg\:pb-12 {
@@ -3667,6 +3742,11 @@ body::-webkit-scrollbar-track,
   .\32xl\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .\32xl\:px-\[150px\] {
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
   .\32xl\:pb-12 {
