@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const solutionsLink = document.getElementById('solutions-link');
   const dropdownMenu = document.getElementById('dropdown-menu');
   const solutionsContainer = document.getElementById('solutions-container');
+  const closeButton = document.querySelector('.close');
 
   let menuActive = false;
 
@@ -29,19 +30,19 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  closeButton && closeButton.addEventListener('click', () => {
+    closeMenu();
+  });
+
   dropdownMenu.addEventListener('mouseleave', () => {
     if (!menuActive) {
       closeMenu();
     }
   });
 
-  document.addEventListener('click', (event) => {
-    if (!solutionsContainer.contains(event.target)) {
-      closeMenu();
-    }
-  });
-
-  dropdownMenu.addEventListener('mouseenter', () => {
-    menuActive = true;
+  document.querySelectorAll('.some-button').forEach(button => {
+    button.addEventListener('click', () => {
+      menuActive = true;
+    });
   });
 });
