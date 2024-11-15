@@ -20,8 +20,6 @@
   <meta name="keywords" content="bitvora" />
   <meta name="robots" content="index, follow" />
 
-
-
   <meta property="og:title" content="Bitvora | Bitcoin & Lightning API" />
   <meta property="og:url" content="https://signet.bitvora.com" />
   <meta property="og:type" content="website" />
@@ -46,33 +44,75 @@
 </head>
 
 <body>
-  <header class="flex justify-between items-center px-6 md:px-4 lg:px-6 py-5 container mx-auto">
-    <div class="flex gap-9 md:gap-8 lg:gap-6 xl:gap-9 2xl:gap-9 items-center">
-      <a class="logo" href="/">
-        <img src="assets/logo.svg" alt="Bitvora" />
-      </a>
-      <div class="h-3 w-[1px] 2xl:h-4 2xl:w-[2px] bg-light bg-opacity-40 hidden md:block"></div>
+  <div class="relative w-screen">
+    <header class="flex justify-between items-center px-6 md:px-4 lg:px-6 py-5 container mx-auto">
+      <div class="flex gap-9 md:gap-8 lg:gap-6 xl:gap-9 2xl:gap-9 items-center">
+        <a class="logo" href="/">
+          <img src="assets/logo.svg" alt="Bitvora" />
+        </a>
+        <div class="h-3 w-[1px] 2xl:h-4 2xl:w-[2px] bg-light bg-opacity-40 hidden md:block"></div>
 
-      <a href="/"
-        class="text-white text-[15px] md:text-base lg:text-base 2xl:text-xl hover:text-gold uppercase hidden md:block nav-link">Home</a>
-      <div class="h-3 w-[1px] 2xl:h-4 2xl:w-[2px] bg-light bg-opacity-40 hidden md:block"></div>
+        <a href="/"
+          class="text-white text-[15px] md:text-base lg:text-base 2xl:text-xl hover:text-gold uppercase hidden md:block nav-link">Home</a>
+        <div class="h-3 w-[1px] 2xl:h-4 2xl:w-[2px] bg-light bg-opacity-40 hidden md:block"></div>
 
-      <a href="#product"
-        class="text-white text-[15px] md:text-base lg:text-base 2xl:text-xl hover:text-gold uppercase hidden md:block nav-link">Product</a>
-      <div class="h-3 w-[1px] 2xl:h-4 2xl:w-[2px] bg-light bg-opacity-40 hidden md:block"></div>
+        <a href="#product"
+          class="text-white text-[15px] md:text-base lg:text-base 2xl:text-xl hover:text-gold uppercase hidden md:block nav-link">Product</a>
+        <div class="h-3 w-[1px] 2xl:h-4 2xl:w-[2px] bg-light bg-opacity-40 hidden md:block"></div>
 
-      <a href="#pricing"
-        class="text-white text-[15px] md:text-base lg:text-base 2xl:text-xl hover:text-gold uppercase hidden md:block nav-link">Pricing</a>
-      <div class="h-3 w-[1px] 2xl:h-4 2xl:w-[2px] bg-light bg-opacity-40 hidden md:block"></div>
+        <a href="#pricing"
+          class="text-white text-[15px] md:text-base lg:text-base 2xl:text-xl hover:text-gold uppercase hidden md:block nav-link">Pricing</a>
+        <div class="h-3 w-[1px] 2xl:h-4 2xl:w-[2px] bg-light bg-opacity-40 hidden md:block"></div>
 
-      <a href="#developers"
-        class="text-white text-[15px] md:text-base lg:text-base 2xl:text-xl hover:text-gold uppercase hidden md:block nav-link">Developers</a>
-    </div>
+        <a href="#developers"
+          class="text-white text-[15px] md:text-base lg:text-base 2xl:text-xl hover:text-gold uppercase hidden md:block nav-link">Developers</a>
+        <div class="h-3 w-[1px] 2xl:h-4 2xl:w-[2px] bg-light bg-opacity-40 hidden md:block"></div>
 
-    <a href="https://console.signet.bitvora.com/auth/login"
-      class="text-white border-2 border-light hover:bg-darkBg hover:border-darkBg hover:font-medium border-opacity-20 px-5 py-2 md:px-4 lg:px-5 md:py-1.5 lg:py-2 2xl:px-6 2xl:py-3 rounded-md 2xl:rounded-xl text-[15px] md:text-[14px] lg:text-base 2xl:text-xl"
-      target="_blank" rel="noopener noreferrer">Log In</a>
-  </header>
+        <div class="group hidden md:block" id="solutions-container">
+          <a href="#solutions"
+            class="text-white text-[15px] md:text-base lg:text-base 2xl:text-xl hover:text-gold uppercase nav-link"
+            id="solutions-link">Solutions</a>
+
+          <div
+            class="absolute left-0 top-full w-screen bg-[#020204] bg-opacity-80 backdrop-blur-lg text-white py-4 hidden group-hover:block items-start px-10 shadow-lg z-[1000] border-y border-light border-opacity-20"
+            id="dropdown-menu">
+            <div class="grid grid-cols-9 gap-6 px-6 py-8">
+              <div class="col-span-3 px-4">
+                <h3
+                  class="text-white text-xl sm:text-xl 2xl:text-2xl mb-2 pb-2 font-normal md:font-semibold tracking-normal leading-tight">
+                  Solutions</h3>
+                <p
+                  class="text-light font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] lg:text-left sm:font-medium">
+                  These are the different Industries our product is most suitable for</p>
+              </div>
+
+              <div class="col-span-2">
+                <div class="mb-2">
+                  <a href="/"
+                    class="text-white font-light text-[13px] sm:text-[13px] lg:text-[15px] 2xl:text-[16px] text-left hover:text-light">Gambling
+                    and Online Casinos</a>
+                </div>
+              </div>
+
+              <div class="col-span-2 p-6">
+                <h3 class="text-xl font-semibold">Section 3</h3>
+                <p>Content for section 3</p>
+              </div>
+
+              <div class="col-span-2 p-6">
+                <h3 class="text-xl font-semibold">Section 4</h3>
+                <p>Content for section 4</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://console.signet.bitvora.com/auth/login"
+        class="text-white border-2 border-light hover:bg-darkBg hover:border-darkBg hover:font-medium border-opacity-20 px-5 py-2 md:px-4 lg:px-5 md:py-1.5 lg:py-2 2xl:px-6 2xl:py-3 rounded-md 2xl:rounded-xl text-[15px] md:text-[14px] lg:text-base 2xl:text-xl"
+        target="_blank" rel="noopener noreferrer">Log In</a>
+    </header>
+  </div>
 
   <main class="mt-4 sm:mt-0 md:mt-2 lg:mt-4 xl:mt-4 2xl:mt-4 w-full mb-8 pb-8">
     <section class="flex justify-between items-center px-6 py-5 container mx-auto w-full">
@@ -80,7 +120,7 @@
         <div id="hero-section"
           class="w-full relative md:w-[600px] md:mx-auto lg:mx-[unset] lg:w-[600px] xl:w-[600px] 2xl:w-[600px] lg:max-w-[40%] xl:max-w-[40%] 2xl:max-w-[40%] mt-4 sm:mt-6 md:mt-6 lg:mt-8 xl:mt-8 2xl:mt-8 pt-4 sm:pt-[40px] md:pt-[50px] lg:pt-[70px] xl:pt-[70px] 2xl:pt-[70px]">
           <h1
-            class="text-white text-3xl sm:text-4xl md:text-3xl lg:text-4xl 2xl:text-5xl uppercase mb-4 pb-4 tracking-normal leading-tight text-center lg:text-left font-semibold md:font-medium">
+            class="text-white text-3xl z-[1] sm:text-4xl md:text-3xl lg:text-4xl 2xl:text-5xl uppercase mb-4 pb-4 tracking-normal leading-tight text-center lg:text-left font-semibold md:font-medium">
             the simplest bitcoin and lightning payments API
           </h1>
 
@@ -95,7 +135,6 @@
             Started for Free</a>
         </div>
 
-
         <div
           class="relative w-full lg:w-[60%] xl:w-[60%] 2xl:w-[60%] -mt-[0px] sm:-mt-[0px] md:-mt-[150px] lg:-mt-10 xl:-mt-10 2xl:-mt-10">
           <img src="/assets/blackhole.png"
@@ -105,7 +144,6 @@
             class="absolute top-1/2 left-1/2 sm:left-5/7 md:left-5/7 lg:left-2/3 xl:left-2/3 2xl:left-2/3 transform -translate-x-1/2 -translate-y-1/2 w-full sm:w-2/5 md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 h-1/2 object-contain z-10" />
         </div>
       </div>
-
     </section>
 
     <section id="product"
@@ -569,8 +607,6 @@
             </div>
           </div>
 
-
-
           <div data-index="2"
             class="flex flex-col scroll-item pricing-item min-w-[300px] lg:min-w-[unset] w-[300px] sm:w-[400px] lg:w-[350px] border-[1px] border-light md:border-primary border-opacity-40 px-10 py-10 text-left">
             <div class="mb-2 pb-2 text-left">
@@ -645,7 +681,6 @@
     </section>
   </main>
 
-
   <div id="contact-sales-modal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
@@ -710,8 +745,9 @@
         <div
           class="block sm:flex sm:justify-center gap-6 md:gap-3 lg:gap-6 items-center mt-[50px] sm:mt-[20px] sm:mb-[30px] md:mb-0 md:mt-[unset]">
           <button
-            class="contact-sales-btn bg-transparent text-black hover:bg-darkBg hover:text-white px-5 md:px-4 lg:px-5 py-3.5 md:py-3 lg:py-3.5 rounded-md text-sm md:text-[13px] lg:text-sm 2xl:text-lg mt-5 border-[1px] border-text border-opacity-60 w-full sm:w-[unset] flex text-center justify-center font-semibold">Contact
-            Sales</button>
+            class="contact-sales-btn bg-transparent text-black hover:bg-darkBg hover:text-white px-5 md:px-4 lg:px-5 py-3.5 md:py-3 lg:py-3.5 rounded-md text-sm md:text-[13px] lg:text-sm 2xl:text-lg mt-5 border-[1px] border-text border-opacity-60 w-full sm:w-[unset] flex text-center justify-center font-semibold">
+            Contact Sales
+          </button>
 
           <a href="https://console.signet.bitvora.com/auth/signup" target="_blank" rel="noopener noreferrer"
             class="bg-primary text-white px-5 md:px-3 lg:px-5 py-3.5 md:py-3 lg:py-3.5 rounded-md text-sm md:text-[13px] lg:text-sm 2xl:text-lg mt-5 hover:bg-darkBg flex text-center justify-center font-semibold">Get
@@ -801,7 +837,7 @@
         </div>
 
         <div>
-          <a href="/privacy-policy"
+          <a href="/privacy-policy.html"
             class="text-white font-bold text-sm text-left capitalize mb-2 hover:text-light">Privacy Policy</a>
         </div>
       </div>
@@ -918,6 +954,7 @@
     }
   </script>
   <script src="/js/main.js"></script>
+  <script src="/js/menu.js"></script>
 </body>
 
 </html>

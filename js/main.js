@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
     scrollToHash();
   });
 
-  window.addEventListener('hashchange', highlightActiveLink);
+  
 });
 
 var modal = document.getElementById('contact-sales-modal');

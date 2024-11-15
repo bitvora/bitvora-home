@@ -18,7 +18,7 @@ html {
 }
 
 #hero-section {
-  z-index: 100000 !important;
+  z-index: 100 !important;
 }
 
 p {
