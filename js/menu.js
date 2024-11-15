@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
   const mobileMenuIcon = document.getElementById('mobile-menu-icon');
   const mobileMenu = document.getElementById('mobile-menu');
-  const closeMobileMenu = document.getElementById('close-mobile-menu');
 
   let menuActive = false;
 
@@ -80,7 +79,13 @@ document.addEventListener('DOMContentLoaded', () => {
     mobileMenuActive = false;
   }
 
+  const solutionsMenu1 = document.getElementById('solutions-menu-1');
+  const solutionsMenu2 = document.getElementById('solutions-menu-2');
+
   mobileMenuToggle.addEventListener('click', () => {
+    solutionsMenu1.style.display = 'block';
+    solutionsMenu2.style.display = 'none';
+
     if (!mobileMenuActive) {
       openMobileMenu();
     } else {
@@ -97,5 +102,25 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileMenuLinks = mobileMenu.querySelectorAll('a');
   mobileMenuLinks.forEach((link) => {
     link.addEventListener('click', closeMobileMenuFunction);
+  });
+
+  const backButton = document.getElementById('solutions-back');
+
+  const mobileSolutionsLink = mobileMenu.querySelector('#mobile-solutions');
+
+  mobileSolutionsLink.addEventListener('click', () => {
+    solutionsMenu2.style.display = 'block';
+    solutionsMenu1.style.display = 'none';
+  });
+
+  backButton.addEventListener('click', () => {
+    solutionsMenu1.style.display = 'block';
+    solutionsMenu2.style.display = 'none';
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && mobileMenuActive) {
+      closeMobileMenuFunction();
+    }
   });
 });
