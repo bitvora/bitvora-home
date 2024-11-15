@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const dropdownMenu = document.getElementById('dropdown-menu');
   const solutionsContainer = document.getElementById('solutions-container');
   const svgIcon = document.getElementById('svg-icon');
-  const downIcon = document.getElementById('down-icon');
   const solutionsText = document.getElementById('solutions-link');
 
   let menuActive = false;
@@ -54,6 +53,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.addEventListener('click', (e) => {
     if (!solutionsContainer.contains(e.target)) {
+      closeMenu();
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && menuActive) {
       closeMenu();
     }
   });
