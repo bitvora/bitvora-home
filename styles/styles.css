@@ -274,6 +274,11 @@ body::-webkit-scrollbar-track,
   opacity: 0.5;
 }
 
+.solutions-image {
+  width: 90px;
+  height: 90px;
+}
+
 @media (min-width: 576px) {
   .logo img {
     width: 150px;

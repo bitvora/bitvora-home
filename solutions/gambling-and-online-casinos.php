@@ -77,13 +77,13 @@
                 </div>
 
                 <div class="col-span-2 w-full flex justify-center items-center"">
-                    <img src="/assets/time.svg" class="w-32 h-32 lg:h-40 lg:w-72" />
+                    <img src="/assets/time.svg" class="solutions-image" />
                 </div>
             </div>
 
             <div class="flex flex-col lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12">
                 <div class="col-span-2 w-full flex justify-center items-center"">
-                    <img src="/assets/lock.svg" class="w-32 h-32 lg:h-40 lg:w-72" />
+                    <img src="/assets/lock.svg" class="solutions-image" />
                 </div>
 
                 <div class="col-span-3 w-full">
@@ -117,13 +117,13 @@
                 </div>
 
                 <div class="col-span-2 w-full flex justify-center items-center"">
-                    <img src="/assets/document.svg" class="w-32 h-32 lg:h-40 lg:w-72" />
+                    <img src="/assets/document.svg" class="solutions-image" />
                 </div>
             </div>
 
             <div class="flex flex-col lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12">
                 <div class="col-span-2 w-full flex justify-center items-center"">
-                    <img src="/assets/globe.svg" class="w-32 h-32 lg:h-40 lg:w-72" />
+                    <img src="/assets/globe.svg" class="solutions-image" />
                 </div>
 
                 <div class="col-span-3 w-full">
@@ -159,7 +159,7 @@
                 </div>
 
                 <div class="col-span-2 w-full flex justify-center items-center"">
-                    <img src="/assets/cash.svg" class="w-32 h-32 lg:h-40 lg:w-72" />
+                    <img src="/assets/cash.svg" class="solutions-image" />
                 </div>
             </div>
         </section>
