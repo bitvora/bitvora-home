@@ -1,27 +1,24 @@
 <footer id="footer">
     <section
-      class="bg-white w-full px-4 sm:px-[50px] lg:px-[150px] py-[10px] sm:py-[20px] md:py-[30px] lg:py-[50px] mt-[35px] sm:mt-[45px] mlgd:mt-[75px] pt-[35px] sm:pt-[45px] md:pt-[40px] lg:pt-[75px] mb-12 pb-12 2xl:container">
+      class="bg-white w-full px-4 sm:px-[50px] lg:px-[90px] xl:px-[150px] py-[10px] sm:py-[20px] md:py-[30px] lg:py-[50px] mt-[35px] sm:mt-[45px] lg:mt-[75px] pt-[35px] sm:pt-[45px] md:pt-[40px] lg:pt-[75px] mb-12 pb-12 2xl:container">
       <div
         class="w-80 md:w-[300px] lg:w-[600px] flex md:block items-center justify-center md:justify-start text-center md:text-left mx-auto md:mx-[unset]">
         <h4
           class="text-black text-2xl lg:text-3xl 2xl:text-4xl font-normal md:font-light uppercase tracking-normal leading-tight">
-          Ready to Simplify Bitcoin Payments?
+          <?php echo isset($header) ? $header : 'Ready to Simplify Bitcoin Payments?'; ?>
         </h4>
       </div>
 
       <div
         class="mt-2 sm:mt-2 md:mt-2 lg:mt-2 xl:mt-2 2xl:mt-2 pt-2 sm:pt-2 md:pt-2 lg:pt-2 xl:pt-2 2xl:pt-2 md:flex justify-between items-center">
-        <div class="w-full md:w-[unset] text-center md:text-left">
-          <p class="text-text font-light text-[16px] lg:text-lg 2xl:text-xl">
-            Join the millions of users around the world switching to
-          </p>
-          <p class="text-text font-light text-[16px] lg:text-lg 2xl:text-xl">
-            Bitcoin as their money of choice.
+        <div class="w-full md:w-6/12 text-center md:text-left">
+          <p class="text-text font-light text-[14px] lg:text-[16px] 2xl:text-[18px]">
+            <?php echo isset($text) ? $text : 'Join the millions of users around the world switching to Bitcoin as their money of choice.'; ?>
           </p>
         </div>
 
         <div
-          class="block sm:flex sm:justify-center gap-6 md:gap-3 lg:gap-6 items-center mt-[50px] sm:mt-[20px] sm:mb-[30px] md:mb-0 md:mt-[unset]">
+          class="block sm:flex sm:justify-center gap-6 md:gap-3 lg:gap-6 items-center mt-[50px] sm:mt-[20px] sm:mb-[30px] md:mb-0 md:mt-6/12">
           <button
             class="contact-sales-btn bg-transparent text-black hover:bg-darkBg hover:text-white px-5 md:px-4 lg:px-5 py-3.5 md:py-3 lg:py-3.5 rounded-md text-sm md:text-[13px] lg:text-sm 2xl:text-lg mt-5 border-[1px] border-text border-opacity-60 w-full sm:w-[unset] flex text-center justify-center font-semibold">
             Contact Sales
