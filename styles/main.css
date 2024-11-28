@@ -3415,6 +3415,10 @@ body::-webkit-scrollbar-track,
     width: 66.666667%;
   }
 
+  .xl\:w-9\/12 {
+    width: 75%;
+  }
+
   .xl\:max-w-\[40\%\] {
     max-width: 40%;
   }
@@ -3588,6 +3592,10 @@ body::-webkit-scrollbar-track,
 
   .\32xl\:w-full {
     width: 100%;
+  }
+
+  .\32xl\:w-8\/12 {
+    width: 66.666667%;
   }
 
   .\32xl\:max-w-\[40\%\] {

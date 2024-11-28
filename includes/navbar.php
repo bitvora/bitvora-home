@@ -169,7 +169,7 @@
                                 </div>
 
                                 <div class="mb-6">
-                                    <a href="/"
+                                    <a href="/solutions/subscription-based-media.php"
                                         class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                         Subscription-based Media
                                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -214,7 +214,7 @@
                                 </div>
 
                                 <div class="mb-6">
-                                    <a href="/"
+                                    <a href="/solutions/crypto-companies.php"
                                         class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                         Crypto Companies
                                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -242,7 +242,7 @@
                                 </div>
 
                                 <div class="mb-6">
-                                    <a href="/"
+                                    <a href="/solutions/ai-companies.php"
                                         class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                         AI Companies
                                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -256,7 +256,7 @@
                                 </div>
 
                                 <div>
-                                    <a href="/"
+                                    <a href="/solutions/digital-content.php"
                                         class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                         Digital Content Platforms
                                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -442,7 +442,7 @@
                             </div>
 
                             <div class="mb-6 w-full">
-                                <a href="/"
+                                <a href="/solutions/subscription-based-media.php"
                                     class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                     Subscription-based Media
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -484,7 +484,7 @@
                             </div>
 
                             <div class="mb-6 w-full">
-                                <a href="/"
+                                <a href="/solutions/crypto-companies.php"
                                     class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                     Crypto Companies
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -512,7 +512,7 @@
                             </div>
 
                             <div class="mb-6 w-full">
-                                <a href="/"
+                                <a href="/solutions/ai-companies.php"
                                     class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                     AI Companies
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -526,7 +526,7 @@
                             </div>
 
                             <div class="mb-6 w-full">
-                                <a href="/"
+                                <a href="/solutions/digital-content.php"
                                     class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                     Digital Content Platforms
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
