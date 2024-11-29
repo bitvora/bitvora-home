@@ -115,7 +115,7 @@
                     </p>
                 </div>
 
-                <div class="col-span-2 w-full flex justify-center items-center">
+                <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
                     <img src=" /assets/hand-shake.svg" class="solutions-image hidden md:flex" />
                     <img src="/assets/hand-shake-mobile.svg" class="solutions-image md:hidden" />
                 </div>

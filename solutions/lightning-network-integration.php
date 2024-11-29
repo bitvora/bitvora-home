@@ -89,7 +89,7 @@
 
                 <div class="col-span-3 w-full">
                     <h4
-                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-normal text-center lg:text-left uppercase mb-4 pb-4 tracking-normal leading-tight">
+                    class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
                         Lightning Fast Withdrawals
                     </h4>
 

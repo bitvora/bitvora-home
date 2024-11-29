@@ -115,31 +115,31 @@
                     </p>
                 </div>
 
-                <div class="col-span-2 w-full flex justify-center items-center">
+                <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
                     <img src=" /assets/hand-shake.svg" class="solutions-image hidden md:flex" />
                     <img src="/assets/hand-shake-mobile.svg" class="solutions-image md:hidden" />
                 </div>
             </div>
 
             <div class="flex flex-col lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12">
-                <div class="col-span-2 w-full flex justify-center items-center"">
+                <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
                     <img src=" /assets/rates-left.svg" class="solutions-image hidden md:flex" />
-                <img src="/assets/rates-mobile.svg" class="solutions-image md:hidden" />
-            </div>
+                    <img src="/assets/rates-mobile.svg" class="solutions-image md:hidden" />
+                </div>
 
-            <div class="col-span-3 w-full px-2 lg:px-1">
-                <h4
-                    class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
-                    Increase Donations Rates
-                </h4>
+                <div class="col-span-3 w-full px-2 lg:px-1">
+                    <h4
+                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
+                        Increase Donations Rates
+                    </h4>
 
-                <p
-                    class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
-                    Reach more new supporters by offering your donation amounts in more modest amounts. Remove the
-                    friction in the checkout process by displaying a QR code for payments instead of the traditional
-                    credit card experience.
-                </p>
-            </div>
+                    <p
+                        class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
+                        Reach more new supporters by offering your donation amounts in more modest amounts. Remove the
+                        friction in the checkout process by displaying a QR code for payments instead of the traditional
+                        credit card experience.
+                    </p>
+                </div>
             </div>
         </section>
 

@@ -62,7 +62,7 @@
             <div class="flex flex-col-reverse lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12">
                 <div class="col-span-3 w-full">
                     <h4
-                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-normal text-center lg:text-left uppercase mb-4 pb-4 tracking-normal leading-tight">
+                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
                         Instant Settlement
                     </h4>
 
@@ -91,7 +91,7 @@
 
                 <div class="col-span-3 w-full">
                     <h4
-                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-normal text-center lg:text-left uppercase mb-4 pb-4 tracking-normal leading-tight">
+                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
                         Resistant to Fraud
                     </h4>
 
@@ -107,8 +107,8 @@
             <div class="flex flex-col-reverse lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12">
                 <div class="col-span-3 w-full">
                     <h4
-                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-normal text-center lg:text-left uppercase mb-4 pb-4 tracking-normal leading-tight">
-                        LOW Operational Overhead
+                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
+                        Low Operational Overhead
                     </h4>
 
                     <p
@@ -133,7 +133,7 @@
 
                 <div class="col-span-3 w-full">
                     <h4
-                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-normal text-center lg:text-left uppercase mb-4 pb-4 tracking-normal leading-tight">
+                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
                         Global Reach
                     </h4>
 
@@ -150,8 +150,8 @@
             <div class="flex flex-col-reverse lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12">
                 <div class="col-span-3 w-full">
                     <h4
-                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-normal text-center lg:text-left uppercase mb-4 pb-4 tracking-normal leading-tight">
-                        lOW transaction fees
+                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
+                        Low transaction fees
                     </h4>
 
                     <p

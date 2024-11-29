@@ -75,13 +75,14 @@
             </div>
 
             <div class="flex flex-col lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12">
-                <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
-                    <img src=" /assets/globe.svg" class="solutions-image" />
-                </div>
+            <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
+                        <img src="/assets/globe.svg" class="solutions-image hidden md:flex" />
+                        <img src="/assets/globe-mobile.svg" class="solutions-image md:hidden" />
+                    </div>
 
                 <div class="col-span-3 w-full">
                     <h4
-                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-normal text-center lg:text-left uppercase mb-4 pb-4 tracking-normal leading-tight">
+                    class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
                         Global Reach
                     </h4>
 
@@ -157,7 +158,7 @@
                     </p>
                 </div>
 
-                <div class="col-span-2 w-full flex justify-center items-center">
+                <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
                     <img src="/assets/cash.svg" class="solutions-image hidden md:flex" />
                     <img src="/assets/cash-mobile.svg" class="solutions-image md:hidden" />
                 </div>

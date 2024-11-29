@@ -82,7 +82,7 @@
 
                 <div class="col-span-3 w-full">
                     <h4
-                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-normal text-center lg:text-left uppercase mb-4 pb-4 tracking-normal leading-tight">
+                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
                         Improved Security and Fraud Prevention
                     </h4>
 
@@ -113,7 +113,7 @@
                     </p>
                 </div>
 
-                <div class="col-span-2 w-full flex justify-center items-center">
+                <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
                     <img src="/assets/hand-shake.svg" class="solutions-image hidden md:flex" />
                     <img src="/assets/hand-shake-mobile.svg" class="solutions-image md:hidden" />
                 </div>
@@ -133,12 +133,16 @@
 
                     <p
                         class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
-                        Between high transactional fees, chargebacks and dispute fees, your costs can increase significantly by accepting credit cards in your business. Additionally, many credit card payment processors can at a moment’s notice decide not to service your business, leading you to spend resources finding new providers. Bitcoin and lightning payments cannot be blocked and are significantly lower than traditional credit card.
+                        Between high transactional fees, chargebacks and dispute fees, your costs can increase
+                        significantly by accepting credit cards in your business. Additionally, many credit card payment
+                        processors can at a moment’s notice decide not to service your business, leading you to spend
+                        resources finding new providers. Bitcoin and lightning payments cannot be blocked and are
+                        significantly lower than traditional credit card.
                     </p>
                 </div>
             </div>
 
-          
+
 
 
         </section>

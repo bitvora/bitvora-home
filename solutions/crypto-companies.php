@@ -117,14 +117,14 @@
                     </p>
                 </div>
 
-                <div class="col-span-2 w-full flex justify-center items-center">
+                <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
                     <img src=" /assets/hand-shake.svg" class="solutions-image hidden md:flex" />
                     <img src="/assets/hand-shake-mobile.svg" class="solutions-image md:hidden" />
                 </div>
             </div>
 
             <div class="flex flex-col lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12">
-                <div class="col-span-2 w-full flex justify-center items-center"">
+                <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
                     <img src=" /assets/rates-left.svg" class="solutions-image hidden md:flex" />
                 <img src="/assets/rates-mobile.svg" class="solutions-image md:hidden" />
             </div>
