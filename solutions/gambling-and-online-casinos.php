@@ -98,7 +98,8 @@
 
                     <p
                         class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
-                        Bitcoin payments are irreversible, meaning your casino is protected from fraudulent chargebacks.
+                        Bitcoin payments are irreversible, meaning your casino is protected from fraudulent charge
+                        backs.
                         This reduction in operational risks helps prevent costly disputes, ensuring peace of mind and a
                         smoother experience for operators and players alike.
                     </p>
@@ -176,7 +177,13 @@
 
         <?php include('../includes/faq.php'); ?>
 
-        <?php include('../includes/footer.php'); ?>
+        <?php
+        $faqItems = [
+        ['question' => 'Sample Question 1', 'answer' => 'Sample Answer 1'],
+        ['question' => 'Sample Question 2', 'answer' => 'Sample Answer 2'],
+    ];
+
+include('../includes/footer.php'); ?>
 
         <script src="/js/main.js"></script>
         <script src="/js/menu.js"></script>

@@ -2848,6 +2848,10 @@ body::-webkit-scrollbar-track,
     margin-top: 85px;
   }
 
+  .lg\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
   .lg\:block {
     display: block;
   }

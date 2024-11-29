@@ -33,17 +33,17 @@
                     <p
                         class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center sm:font-medium justify-center">
                         The Lightning Network is a way to move Bitcoin faster and cheaper, it helps to scale the Bitcoin
-                        network and allows exchanges to offer a superior user experience. Many of the largest crypto
-                        exchanges have integrated Lightning network payments including Coinbase, Binance, Kraken and
-                        many others. The benefits of Lightning are plentiful, especially lower fees for sending
-                        transactions and instant settlement. Bitvora’s solution stands apart from competitors because it
-                        offers the simplest solution that will minimize not only integration resources but also
-                        maintenance.
+network and allows exchanges to offer a superior user experience. Many of the largest crypto
+exchanges have integrated Lightning network payments including Coinbase, Binance, Kraken
+and many others. The benefits of Lightning are plentiful, especially lower fees for sending
+transactions and instant settlement. Bitvora’s solution stands apart from competitors because it
+offers the simplest solution that will minimize not only integration resources but also
+maintenance.
                     </p>
 
                     <a href="https://console.signet.bitvora.com/auth/signup"
                         class="bg-primary text-white font-bold px-2 py-3 lg:py-4 rounded-md text-[14px] lg:text-[17px] mt-5 hover:bg-darkBg w-full md:w-[200px] lg:w-[220px] flex text-center justify-center mx-auto">
-                        Get Started Today</a>
+                        Get Started For Free</a>
                 </div>
             </div>
         </section>
@@ -52,8 +52,8 @@
             class="w-full px-6 py-5 container mx-auto mt-[90px] sm:mt-[80px] md:-mt-[45px] lg:mt-[85px] xl:mt-[85px] 2xl:mt-[85px] pt-[15px] sm:pt-[5px] md:pt-[85px] lg:pt-[85px] xl:pt-[85px] 2xl:pt-[85px] mb-8 pb-8">
             <h4
                 class="text-white text-2xl sm:text-2xl 2xl:text-3xl font-normal uppercase mb-12 sm:mb-6 md:mb-8 pb-12 sm:pb-6 md:pb-8 tracking-normal leading-tight text-center justify-center md:w-8/12 lg:w-6/12 mx-auto">
-                How the Lightning Network is unlocking
-                opportunities for Crypto Exchanges
+                How the Lightning Network is unlocking opportunities for Crypto
+Exchanges
             </h4>
 
             <div
@@ -67,11 +67,11 @@
                     <p
                         class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
                         Basic Bitcoin on chain payments typically take at least 10 minutes to confirm, but this can be
-                        wildly unreliable; sometimes taking up to an hour to be confirmed on the blockchain or requiring
-                        intervention to increase the fee. With the Lightning Network, payments can be delivered
-                        instantly and become spendable, without any potential hang-ups or additional steps needed for
-                        your customers or users. Your customers can deposit Bitcoin onto your platform and be credited
-                        instantly; no more waiting before they can start trading.
+wildly unreliable; sometimes taking up to an hour to be confirmed on the blockchain or requiring
+intervention to increase the fee. With the Lightning Network, payments can be delivered
+instantly and become spendable, without any potential hang-ups or additional steps needed for
+your customers or users. Your customers can deposit Bitcoin onto your platform and be credited
+instantly; no more waiting before they can start trading.
                     </p>
                 </div>
 
@@ -114,8 +114,8 @@
                     <p
                         class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
                         Micropayments aren’t possible on traditional payment processors because of the high base fee.
-                        The bitcoin lightning network allows you to send payments less than $0.01, enabling new
-                        innovative pay per use business models.
+The Bitcoin lightning network allows you to send payments of less than $0.01. No longer do you
+have to worry about managing UTXOs, payments are completely fungible and easy to manage.
                     </p>
                 </div>
 
@@ -140,12 +140,13 @@
                     <p
                         class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
                         Operating a crypto exchange comes with many risks and challenges, you shouldn’t have to be
-                        saddled with paying potentially high network fees to manage and send Bitcoin payments. With the
-                        lightning network you have more control and certainty about transaction fees.  Accepting
-                        payments with Bitvora are as low as 0.3% for Lightning payments, which gives you the freedom to
-                        not worry about the volatility of Bitcoin’s fees and the impact on your bottom line. Whether the
-                        market is hot and Bitcoin fees are sky-high, is no longer a concern when you use the Lightning
-                        Network.
+saddled with paying potentially high network fees to manage and send Bitcoin payments. With
+
+the lightning network, you have more control and certainty about transaction fees. Accepting
+payments with Bitvora is as low as 0.3% for Lightning payments, which gives you the freedom to
+not worry about the volatility of Bitcoin’s fees and the impact on your bottom line. Whether the
+market is hot and Bitcoin fees are sky-high, is no longer a concern when you use the Lightning
+Network.
                     </p>
                 </div>
             </div>
@@ -155,11 +156,49 @@
 
         </section>
 
-        <?php include('../includes/faq.php'); ?>
+        <?php 
+            $faqItems = [
+                ['question' => 'What are the advantages of Bitcoin Payments for Crypto Exchanges?', 'answer' => 'Bitcoin provides a faster, safer, more private and lower cost form of payment that improves the
+experience for both your users and your business. Offer more options for your customers to
+deposit and withdraw faster, cheaper and without taking on additional risks.'],
+                ['question' => 'How Do Bitcoin Payments Protect My Customer’s Privacy?', 'answer' => 'Like many other cryptocurrencies, bitcoin payments do not have identities associated with them.
+Payments made over the lightning network do not appear on the blockchain and are impossible
+to determine the source of the payment. Blockchain payments are traceable, however they do
+not have any personally identifiable information associated with them.'],
+[
+    'question' => 'Can Bitcoin Payments support automatic monthly payments?',
+    'answer' => 'While not yet widely supported, Bitcoin can support automatic monthly payments using a new
+protocol called Nostr Wallet Connect (NWC). As support for this new protocol increases, you’ll
+be able to benefit from predictable monthly payments to and from your customers.',
+],
+[
+    'question' => 'Will Accepting Bitcoin Payments Attract more customers to my business?',
+    'answer' => 'Yes! There are dozens of websites that will gladly promote your business to the bitcoin
+community when you start accepting Lightning Network payments. Many bitcoin enthusiasts
+specifically seek out businesses that align with their values and will gladly support and promote
+your business and brand when you start accepting Lightning payment. Recall that Lightning
+Network payments are supported by several large exchanges that your customers may already
+use, such as Coinbase, Binance and Kraken. It’ll be easier than ever for customers to move
+funds between other exchanges and your own.',
+],
+[
+    'question' => 'Will Bitcoin Payments over the Lightning Network Lower My Transaction
+Costs?',
+    'answer' => 'Regular Bitcoin payments come with a transaction fee that is dependent on market conditions; if
+there is a lot of activity on Bitcoin, it may be very expensive to send a transaction. Accepting
+bitcoin payments over the Lightning Network with Bitvora can reduce these costs, which can
+increase your profit margins or pass those savings along to your customers.',
+],
+
+            ];
+            
+            include('../includes/faq.php'); ?>
 
         <?php 
-        $header = "Power your payment with Bitcoin and Bitvora";
-        $text = "Are you ready to lower your transaction costs, broaden your customer base and join the future of online payments? Sign up for a free account today or contact a Bitvora sales representative for more information on how Bitcoin payments can power your freelance business today!";
+        $header = "Power your Exchange with Bitcoin and Bitvora";
+        $text = "Are you ready to lower your transaction costs, broaden your customer base and join the future
+of online payments? Sign up for a free account today or contact a Bitvora sales representative
+for more information on how Bitcoin and Lightning payments can power your exchange today!";
         include('../includes/footer.php'); ?>
 
         <script src="/js/main.js"></script>
