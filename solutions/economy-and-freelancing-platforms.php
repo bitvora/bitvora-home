@@ -17,7 +17,8 @@
             <div class="relative w-full justify-center text-center flex flex-col-reverse lg:flex-col">
                 <div
                     class="relative w-full h-full sm:h-[300px] lg:h-[400px] flex justify-end sm:justify-center lg:justify-end lg:py-12 mt-12 py-1 lg:mt-0">
-                    <img src="/assets/freelance.svg" class="w-full h-full object-contain solutions-header-image hidden md:flex" />
+                    <img src="/assets/freelance.svg"
+                        class="w-full h-full object-contain solutions-header-image hidden md:flex" />
                     <img src="/assets/freelance-mobile.svg" class="w-full h-full object-fill md:hidden" />
                 </div>
 
@@ -55,23 +56,25 @@
                 <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
                     <img src=" /assets/globe.svg" class="solutions-image hidden md:flex" />
                     <img src=" /assets/globe-mobile.svg" class="solutions-image md:hidden" />
+                </div>
+
+                <div class="col-span-3 w-full px-2 lg:px-1">
+                    <h4
+                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
+                        Global Reach
+                    </h4>
+
+                    <p
+                        class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
+                        Do business with clients in any country without restrictions and without costly currency
+                        conversion
+                        fees. Bitcoin is money without borders.
+                    </p>
+                </div>
             </div>
 
-            <div class="col-span-3 w-full px-2 lg:px-1">
-                <h4
-                    class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
-                    Global Reach
-                </h4>
-
-                <p
-                    class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
-                    Do business with clients in any country without restrictions and without costly currency conversion
-                    fees. Bitcoin is money without borders.
-                </p>
-            </div>
-            </div>
-
-            <div class="flex flex-col-reverse lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12  mb-6 pb-6">
+            <div
+                class="flex flex-col-reverse lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12  mb-6 pb-6">
                 <div class="col-span-3 w-full px-2 lg:px-1">
                     <h4
                         class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
@@ -91,13 +94,13 @@
                 <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
                     <img src="/assets/security-right.svg" class="solutions-image hidden md:flex" />
                     <img src="/assets/security-mobile.svg" class="solutions-image md:hidden" />
-            </div>
+                </div>
             </div>
 
             <div class="flex flex-col lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12  mb-6 pb-6">
                 <div class="col-span-2 w-full flex justify-center items-center"">
                     <img src=" /assets/cash-left.svg" class="solutions-image hidden md:flex" />
-                    <img src="/assets/cash-mobile.svg" class="solutions-image md:hidden" />
+                <img src="/assets/cash-mobile.svg" class="solutions-image md:hidden" />
             </div>
 
             <div class="col-span-3 w-full px-2 lg:px-1">
@@ -134,7 +137,7 @@
                 <div class="col-span-2 w-full flex justify-center items-center">
                     <img src=" /assets/hand-shake.svg" class="solutions-image hidden md:flex" />
                     <img src="/assets/hand-shake-mobile.svg" class="solutions-image md:hidden" />
-            </div>
+                </div>
             </div>
         </section>
 
