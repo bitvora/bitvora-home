@@ -1,7 +1,7 @@
 <html lang="en">
 
 <head>
-  <?php 
+    <?php 
   $pageTitle = "Supply Chain & Logistics";
   $pageURL = "https://signet.bitvora.com/solutions/supply-chain-and-logistics";
   $pageImage = "https://signet.bitvora.com/assets/bitvora.png";
@@ -10,7 +10,7 @@
 </head>
 
 <body>
-<?php include('../includes/navbar.php'); ?>
+    <?php include('../includes/navbar.php'); ?>
 
     <main class="mt-12 pt-12 sm:mt-8 sm:pt-8 md:mt-2 lg:mt-4 xl:mt-4 2xl:mt-4 w-full mb-8 pb-8">
         <section class="flex justify-between items-center px-6 py-5 container mx-auto w-full">
@@ -35,8 +35,7 @@
 
                 <div
                     class="relative w-full lg:w-[60%] xl:w-[60%] 2xl:w-[60%] mt-10 flex justify-end sm:justify-center lg:justify-end py-12">
-                    <img src="/assets/supply.png"
-                        class="w-full sm:w-[80%] md:w-[70%] lg:w-[80%] max-w-none mx-auto" />
+                    <img src="/assets/supply.png" class="w-full sm:w-[80%] md:w-[70%] lg:w-[80%] max-w-none mx-auto" />
                 </div>
             </div>
         </section>
@@ -78,14 +77,16 @@
                     </p>
                 </div>
 
-                <div class="col-span-2 w-full flex justify-center items-center"">
-                    <img src="/assets/time.svg" class="solutions-image" />
+                <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
+                    <img src="/assets/time.svg" class="solutions-image hidden md:flex" />
+                    <img src="/assets/time-mobile.svg" class="solutions-image md:hidden" />
                 </div>
             </div>
 
             <div class="flex flex-col lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12">
-                <div class="col-span-2 w-full flex justify-center items-center"">
-                    <img src="/assets/lock.svg" class="solutions-image" />
+                <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
+                    <img src="/assets/lock.svg" class="solutions-image hidden md:flex" />
+                    <img src="/assets/security-mobile.svg" class="solutions-image md:hidden" />
                 </div>
 
                 <div class="col-span-3 w-full">
@@ -118,14 +119,16 @@
                     </p>
                 </div>
 
-                <div class="col-span-2 w-full flex justify-center items-center"">
-                    <img src="/assets/document.svg" class="solutions-image" />
+                <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
+                    <img src="/assets/document.svg" class="solutions-image hidden md:flex" />
+                    <img src="/assets/document-mobile.svg" class="solutions-image md:hidden" />
                 </div>
             </div>
 
             <div class="flex flex-col lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12">
-                <div class="col-span-2 w-full flex justify-center items-center"">
-                    <img src="/assets/globe.svg" class="solutions-image" />
+                <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
+                    <img src="/assets/globe.svg" class="solutions-image hidden md:flex" />
+                    <img src="/assets/globe-mobile.svg" class="solutions-image md:hidden" />
                 </div>
 
                 <div class="col-span-3 w-full">
@@ -160,8 +163,9 @@
                     </p>
                 </div>
 
-                <div class="col-span-2 w-full flex justify-center items-center"">
-                    <img src="/assets/cash.svg" class="solutions-image" />
+                <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
+                    <img src="/assets/cash.svg" class="solutions-image hidden md:flex" />
+                    <img src="/assets/cash-mobile.svg" class="solutions-image md:hidden" />
                 </div>
             </div>
         </section>
