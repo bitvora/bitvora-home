@@ -26,20 +26,17 @@
                     class="w-full px-6 md:w-9/12 lg:w-10/12 xl:w-9/12 2xl:w-8/12 relative mx-auto mt-[150px] sm:mt-[120px] md:mt-[140px] lg:mt-2 xl:mt-2 2xl:mt-2 pt-2 sm:pt-[40px] md:pt-2 lg:pt-2 xl:pt-2 2xl:pt-2 justify-center text-center">
                     <h1
                         class="text-white text-4xl mx-auto justify-center z-[1] sm:text-4xl md:text-3xl lg:text-4xl 2xl:text-5xl uppercase mb-4 pb-4 tracking-normal leading-tight text-center font-medium lg:w-2/3">
-                        Bitcoin Payments for
-                        Digital Content Platforms
+                        Bitcoin Payments for Digital Content Platforms
                     </h1>
 
                     <p
                         class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center sm:font-medium justify-center">
-                        Open the doors for new, novel pay-out and payment methods for your Digital Content platform.
-                        Offer incredibly fast and flexible payment options for your creators, affiliates and partners
-                        with Bitcoin and the Lightning Network.
+                        Open the doors for new, novel payout and payment methods for your Digital Content platform. Offer incredibly fast and flexible payment options for your creators, affiliates and partners with Bitcoin and the Lightning Network.
                     </p>
 
                     <a href="https://console.signet.bitvora.com/auth/signup"
                         class="bg-primary text-white font-bold px-2 py-3 lg:py-4 rounded-md text-[14px] lg:text-[17px] mt-5 hover:bg-darkBg w-full md:w-[200px] lg:w-[220px] flex text-center justify-center mx-auto">
-                        Get Started Today</a>
+                        Get Started For Free</a>
                 </div>
             </div>
         </section>
@@ -61,9 +58,7 @@
 
                     <p
                         class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
-                        Micropayments aren’t possible on traditional payment processors because of the high base fee.
-                        The bitcoin lightning network allows you to send payments less than $0.01, enabling new
-                        innovative pay per use business models.
+                        Micropayments aren’t possible on traditional payment processors because of the high base fee. The bitcoin lightning network allows you to send and receive payments less than $0.01, enabling new innovative pay per use business models. No more minimum payouts are required, you have the flexibility of paying creators any time, for any amount.
                     </p>
                 </div>
 
@@ -83,15 +78,12 @@
                 <div class="col-span-3 w-full px-2 lg:px-1">
                     <h4
                         class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
-                        Improved Security and Fraud Prevention
+                        Instant Payouts and Payments
                     </h4>
 
                     <p
                         class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
-                        Unlike credit cards which are rife with fraud from stolen numbers and carding techniques,
-                        payments made with bitcoin can only be made by the bearer and are irreversible. Say goodbye to
-                        chargebacks and dispute fees with instant settlement, only available with Bitcoin and the
-                        Lightning network.
+                        Unlike common payout/payment methods like credit/debit or paypal transfers, payments can be delivered instantly and become spendable, without any potential hang-ups or additional steps needed for your affiliates or partners.Attract content creators by offering permissionless, instant payments.
                     </p>
                 </div>
             </div>
@@ -121,31 +113,59 @@
 
             <div class="flex flex-col lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12">
                 <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
-                    <img src=" /assets/rates-left.svg" class="solutions-image hidden md:flex" />
-                <img src="/assets/rates-mobile.svg" class="solutions-image md:hidden" />
+                    <img src=" /assets/payment-right.svg" class="solutions-image hidden md:flex" />
+                <img src="/assets/payment-mobile.svg" class="solutions-image md:hidden" />
             </div>
 
             <div class="col-span-3 w-full px-2 lg:px-1">
                 <h4
                     class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
-                    Increase Donations Rates
+                    Streaming Payments Live
                 </h4>
 
                 <p
                     class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
-                    Reach more new supporters by offering your donation amounts in more modest amounts. Remove the
-                    friction in the checkout process by displaying a QR code for payments instead of the traditional
-                    credit card experience.
+                    You can offer live streaming of money to and from content creators through the Lightning Network. Imagine a content creator collecting tiny payments for every second of their video or podcast stream that a subscriber consumes. You can unlock completely new business models with our Bitcoin ecosystem tools.
                 </p>
             </div>
             </div>
         </section>
 
-        <?php include('../includes/faq.php'); ?>
+        
+        <?php 
+            $faqItems = [
+                [
+                    'question' => 'What are the advantages of Bitcoin Payments for Digital Content Creators?', 
+                    'answer' => 'Bitcoin provides a faster, safer, more private and lower cost form of payment that improves the experience for both your users and your business. Remove the friction traditionally associated with sign ups and subscriptions using micropayments with Bitcoin.'
+                ],
+
+                [
+                    'question' => 'How Do Bitcoin Payments Protect My Customer’s Privacy?', 
+                    'answer' => 'Unlike credit and debit cards, bitcoin payments do not have identities associated with them. Payments made over the lightning network do not appear on the blockchain and are impossible to determine the source of the payment. Blockchain payments are traceable, however they do not have any personally identifiable information associated with them.'
+                ],
+
+                [
+                    'question' => 'Can Bitcoin Payments support automatic monthly payments?',
+                    'answer' => 'While not yet widely supported, Bitcoin can support automatic monthly payments using a new protocol called Nostr Wallet Connect (NWC). As support for this new protocol increases, you’ll be able to benefit from predictable monthly payments from your subscribers or users.',
+                ],
+
+                [
+                    'question' => 'Will Accepting Bitcoin Payments Attract more customers to my business?',
+                    'answer' => 'Yes! There are dozens of websites that will gladly promote your business to the bitcoin community when you start accepting bitcoin payments. Many bitcoin enthusiasts specifically seek out businesses and content creators that align with their values and will gladly support and promote your business and brand when you start accepting Bitcoin.',
+                ],
+
+                [
+                    'question' => 'Will Bitcoin Payments Lower My Transaction Costs?',
+                    'answer' => 'Traditional card networks charge a base fee and up to 10% fees, depending on the industry, to process a credit card transaction. Accepting bitcoin payments with Bitvora can reduce these costs by up to 90% which can increase your profit margins or pass those savings along to your customers.',
+                ],
+
+            ];
+            
+            include('../includes/faq.php'); ?>
 
         <?php 
-        $header = "Power your payment with Bitcoin and Bitvora";
-        $text = "Are you ready to lower your transaction costs, broaden your customer base and join the future of online payments? Sign up for a free account today or contact a Bitvora sales representative for more information on how Bitcoin payments can power your freelance business today!";
+        $header = "Power your platform or app with Bitcoin and Bitvora";
+        $text = "Are you ready to lower your transaction costs, broaden your customer and creator base and join the future of online payments? Sign up for a free account today or contact a Bitvora sales representative for more information on how Bitcoin payments can power your app today!";
         include('../includes/footer.php'); ?>
 
         <script src="/js/main.js"></script>
