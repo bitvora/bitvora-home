@@ -31,14 +31,12 @@
 
                     <p
                         class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center sm:font-medium justify-center">
-                        Do business with clients from anywhere in the world at a fraction of the cost of traditional
-                        payment processors. Start growing your freelance business powered by the Bitcoin and Lightning
-                        networks today.
+                        Do business with clients from anywhere in the world at a fraction of the cost of traditional payment processors. Start growing your freelance business powered by the Bitcoin and Lightning networks today.
                     </p>
 
                     <a href="https://console.signet.bitvora.com/auth/signup"
                         class="bg-primary text-white font-bold px-2 py-3 lg:py-4 rounded-md text-[14px] lg:text-[17px] mt-5 hover:bg-darkBg w-full md:w-[200px] lg:w-[220px] flex text-center justify-center mx-auto">
-                        Get Started Today</a>
+                        Get Started For Free</a>
                 </div>
             </div>
         </section>
@@ -47,8 +45,7 @@
             class="w-full px-6 py-5 container mx-auto mt-[90px] sm:mt-[80px] md:-mt-[45px] lg:mt-[85px] xl:mt-[85px] 2xl:mt-[85px] pt-[15px] sm:pt-[5px] md:pt-[85px] lg:pt-[85px] xl:pt-[85px] 2xl:pt-[85px] mb-8 pb-8">
             <h4
                 class="text-white text-2xl sm:text-2xl 2xl:text-3xl font-normal uppercase mb-12 sm:mb-6 md:mb-8 pb-12 sm:pb-6 md:pb-8 tracking-normal leading-tight text-center justify-center md:w-8/12 lg:w-6/12 mx-auto">
-                How Bitcoin Payments help
-                Freelancers Grow
+                How Bitcoin Payments help Freelancers Grow
             </h4>
 
             <div
@@ -66,9 +63,7 @@
 
                     <p
                         class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
-                        Do business with clients in any country without restrictions and without costly currency
-                        conversion
-                        fees. Bitcoin is money without borders.
+                        Do business with clients in any country without restrictions and without costly currency conversion fees. Bitcoin is money without borders.
                     </p>
                 </div>
             </div>
@@ -83,11 +78,7 @@
 
                     <p
                         class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
-                        Unlike credit cards which are rife with fraud from stolen numbers and carding techniques,
-                        payments made with bitcoin can only be made by the bearer and are irreversible. Say goodbye to
-                        chargebacks and dispute fees with instant settlement, only available with Bitcoin and the
-                        Lightning network.
-                        Minimize Costs.
+                        Unlike credit cards which are rife with fraud from stolen numbers and carding techniques, payments made with bitcoin can only be made by the bearer and are irreversible. Say goodbye to chargebacks and dispute fees with instant settlement, only available with Bitcoin and the Lightning network.
                     </p>
                 </div>
 
@@ -111,9 +102,7 @@
 
                 <p
                     class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
-                    Running a freelance business is hard work and you shouldn’t have to lose 10% or more of your revenue
-                    in payment processing fees. Accepting payments with Bitvora are as low as 0.3%, which is up to 90%
-                    less expensive than traditional payment processors.
+                    Running a freelance business is hard work and you shouldn’t have to lose 10% or more of your revenue in payment processing fees. Accepting payments with Bitvora are as low as 0.3%, which is up to 90% less expensive than traditional payment processors.
                 </p>
             </div>
             </div>
@@ -127,10 +116,7 @@
 
                     <p
                         class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
-                        Bitcoin advocates enthusiastically support freelancers that accept bitcoin as a form of payment.
-                        Enjoy the benefits of free marketing for your services simply by accepting a superior form of
-                        payment. Get listed on many popular websites that showcase freelancers that are joining the
-                        bitcoin ecosystem.
+                        Bitcoin advocates enthusiastically support freelancers that accept bitcoin as a form of payment. Enjoy the benefits of free marketing for your services simply by accepting a superior form of payment. Get listed on many popular websites that showcase freelancers that are joining the bitcoin ecosystem.
                     </p>
                 </div>
 
@@ -141,10 +127,39 @@
             </div>
         </section>
 
-        <?php include('../includes/faq.php'); ?>
+        <?php 
+            $faqItems = [
+                [
+                    'question' => 'What are the advantages of Bitcoin Payments for Freelancers?', 
+                    'answer' => 'Bitcoin provides a faster, safer, more private and lower cost form of payment that improves the experience for both your clients and your business. Remove the friction traditionally associated with traditional payment processors.'
+                ],
+
+                [
+                    'question' => 'How Do Bitcoin Payments Protect My Client’s Privacy?', 
+                    'answer' => 'Unlike credit and debit cards, bitcoin payments do not have identities associated with them. Payments made over the lightning network do not appear on the blockchain and are impossible to determine the source of the payment. Blockchain payments are traceable, however they do not have any personally identifiable information associated with them.'
+                ],
+
+                [
+                    'question' => 'Can Bitcoin Payments be blocked by financial institutions?',
+                    'answer' => 'Unlike traditional financial rails like credit cards, SWIFT, paypal and other institutions, Bitcoin payments cannot be stopped by any financial institution. This allows you to build your freelancing business anywhere in the world without risk of censorship.',
+                ],
+
+                [
+                    'question' => 'Will Accepting Bitcoin Payments Attract more supporters to my freelance business?',
+                    'answer' => 'Yes! There are dozens of websites that will promote your services to the bitcoin community when you start accepting bitcoin payments. Many bitcoin enthusiasts specifically seek out freelancers that align with their values and will gladly support and promote you when you start accepting Bitcoin.',
+                ],
+
+                [
+                    'question' => 'Will Bitcoin Payments Lower My Transaction Costs?',
+                    'answer' => 'Traditional card networks charge a base fee and up to 10% fees, depending on the industry, to process a credit card transaction. Accepting bitcoin payments with Bitvora can reduce these costs by up to 90% which can increase your profit margins or pass those savings along to your clients.',
+                ],
+
+            ];
+            
+            include('../includes/faq.php'); ?>
 
         <?php 
-        $header = "Power your payment with Bitcoin and Bitvora";
+        $header = "Power your charity with Bitcoin and Bitvora";
         $text = "Are you ready to lower your transaction costs, broaden your customer base and join the future of online payments? Sign up for a free account today or contact a Bitvora sales representative for more information on how Bitcoin payments can power your freelance business today!";
         include('../includes/footer.php'); ?>
 
