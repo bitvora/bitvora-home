@@ -153,12 +153,14 @@
 
         <?php 
             $faqItems = [
-                ['question' => 'What are the advantages of Bitcoin Payments for Online Marketplaces?', 
-                'answer' => 'Bitcoin provides a faster, safer, more private and lower cost form of payment that improves the experience for both your users and your business. Offer more options for your customers to pay faster, cheaper and without taking on additional risks.'
+                [
+                    'question' => 'What are the advantages of Bitcoin Payments for Online Marketplaces?', 
+                    'answer' => 'Bitcoin provides a faster, safer, more private and lower cost form of payment that improves the experience for both your users and your business. Offer more options for your customers to pay faster, cheaper and without taking on additional risks.'
                 ],
 
-                ['question' => 'How Do Bitcoin Payments Protect My Customer’s Privacy?', 
-                'answer' => 'Unlike credit cards, debit cards or Paypal, bitcoin payments do not have identities associated with them. Payments made over the lightning network do not appear on the blockchain and are impossible to determine the source of the payment. Blockchain payments are traceable, however they do not have any personally identifiable information associated with them.'],
+                [
+                    'question' => 'How Do Bitcoin Payments Protect My Customer’s Privacy?', 
+                    'answer' => 'Unlike credit cards, debit cards or Paypal, bitcoin payments do not have identities associated with them. Payments made over the lightning network do not appear on the blockchain and are impossible to determine the source of the payment. Blockchain payments are traceable, however they do not have any personally identifiable information associated with them.'],
 
                 [
                     'question' => 'Can Bitcoin Payments support automatic monthly payments?',
