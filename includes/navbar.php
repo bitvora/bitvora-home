@@ -106,6 +106,19 @@
                                     </svg></a>
                             </div>
 
+                            <div class="mb-6">
+                                <a href="/solutions/digital-content.php"
+                                    class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
+                                    Digital Content Platforms
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.165 4.81699L5.21005 12.7719" stroke="currentColor"
+                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M6.76166 4.83076L13.1649 4.81697L13.1516 11.2207" stroke="currentColor"
+                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></a>
+                            </div>
+
                             <div>
                                 <a href="/solutions/ecommerce-platform.php"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">E-commerce
@@ -255,18 +268,7 @@
                                     </svg></a>
                             </div>
 
-                            <div>
-                                <a href="/solutions/digital-content.php"
-                                    class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
-                                    Digital Content Platforms
-                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M13.165 4.81699L5.21005 12.7719" stroke="currentColor"
-                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M6.76166 4.83076L13.1649 4.81697L13.1516 11.2207" stroke="currentColor"
-                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg></a>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
