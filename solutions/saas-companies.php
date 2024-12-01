@@ -1,10 +1,14 @@
+<?php
+include('../includes/config.php');
+?>
+
 <html lang="en">
 
 <head>
     <?php 
    $pageTitle = "SAAS Companies";
-   $pageURL = "https://signet.bitvora.com/solutions/saas-companies";
-   $pageImage = "https://signet.bitvora.com/assets/bitvora.png";
+   $pageURL =  $config['base_url'] . "/solutions/saas-companies";
+   $pageImage = $config['base_url'] . "/assets/bitvora.png";
   
   include('../includes/header.php'); ?>
 </head>
@@ -34,7 +38,7 @@
                         Unlock innovative new business models and lower your costs with instant, low cost payments powered by Bitcoin and the Lightning network. Join thousands of SaaS companies making the switch to Bitcoin today.
                     </p>
 
-                    <a href="https://console.signet.bitvora.com/auth/signup"
+                    <a href="<?php echo $config['base_url']; ?>/auth/signup"
                         class="bg-primary text-white font-bold px-2 py-3 lg:py-4 rounded-md text-[14px] lg:text-[17px] mt-5 hover:bg-darkBg w-full md:w-[200px] lg:w-[220px] flex text-center justify-center mx-auto">
                         Get Started For Free</a>
                 </div>

@@ -1,3 +1,6 @@
+<?php
+include(__DIR__ . '/config.php'); 
+?>
 <footer id="footer">
     <section
       class="bg-white w-full px-4 sm:px-[50px] lg:px-[90px] xl:px-[150px] py-[10px] sm:py-[20px] md:py-[30px] lg:py-[50px] mt-[35px] sm:mt-[45px] lg:mt-[75px] pt-[35px] sm:pt-[45px] md:pt-[40px] lg:pt-[75px] mb-12 pb-12 2xl:container">
@@ -24,7 +27,7 @@
             Contact Sales
           </button>
 
-          <a href="https://console.signet.bitvora.com/auth/signup" target="_blank" rel="noopener noreferrer"
+          <a href="<?php echo $config['base_url']; ?>/auth/signup"  target="_blank" rel="noopener noreferrer"
             class="bg-primary text-white px-5 md:px-3 lg:px-5 py-3.5 md:py-3 lg:py-3.5 rounded-md text-sm md:text-[13px] lg:text-sm 2xl:text-lg mt-5 hover:bg-darkBg flex text-center justify-center font-semibold">Get
             Started with Bitvora</a>
         </div>

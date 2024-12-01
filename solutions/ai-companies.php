@@ -1,16 +1,21 @@
+<?php
+include('../includes/config.php');
+?>
+
 <html lang="en">
 
 <head>
     <?php 
    $pageTitle = "AI Companies";
-   $pageURL = "https://signet.bitvora.com/solutions/ai-companies";
-   $pageImage = "https://signet.bitvora.com/assets/bitvora.png";
+   $pageURL =  $config['base_url'] . "/solutions/ai-companies";
+   $pageImage = $config['base_url'] . "/assets/bitvora.png";
   
   include('../includes/header.php'); ?>
 </head>
 
 <body>
     <?php include('../includes/navbar.php'); ?>
+   
 
     <main class="w-full mb-8 pb-8">
         <section class="justify-between items-center lg:px-6 mb-6 lg:mb-2 container mx-auto w-full">
@@ -34,7 +39,7 @@
                         Unlock innovative new business models like per per inference or agent to agent payments, lower your costs with instant, low fee payments powered by Bitcoin and the Lightning network. Join thousands of AI companies making the switch to Bitcoin today.
                     </p>
 
-                    <a href="https://console.signet.bitvora.com/auth/signup"
+                    <a href="<?php echo $config['base_url']; ?>/auth/signup"
                         class="bg-primary text-white font-bold px-2 py-3 lg:py-4 rounded-md text-[14px] lg:text-[17px] mt-5 hover:bg-darkBg w-full md:w-[200px] lg:w-[220px] flex text-center justify-center mx-auto">
                         Get Started For Free</a>
                 </div>

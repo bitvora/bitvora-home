@@ -1,10 +1,14 @@
+<?php
+include('../includes/config.php');
+?>
+
 <html lang="en">
 
 <head>
     <?php 
    $pageTitle = "Payment Processors";
-   $pageURL = "https://signet.bitvora.com/solutions/payment-processors";
-   $pageImage = "https://signet.bitvora.com/assets/bitvora.png";
+   $pageURL =  $config['base_url'] . "/solutions/payment-processors";
+   $pageImage = $config['base_url'] . "/assets/bitvora.png";
   
   include('../includes/header.php'); ?>
 </head>
@@ -34,7 +38,7 @@
                         Cut out the banks, card networks and long settlement times by rolling out Bitcoin payments to all your merchants. Increase your profits and customer satisfaction by powering your business with Bitcoin and the Lightning Network.
                     </p>
 
-                    <a href="https://console.signet.bitvora.com/auth/signup"
+                    <a href="<?php echo $config['base_url']; ?>/auth/signup"
                         class="bg-primary text-white font-bold px-2 py-3 lg:py-4 rounded-md text-[14px] lg:text-[17px] mt-5 hover:bg-darkBg w-full md:w-[200px] lg:w-[220px] flex text-center justify-center mx-auto">
                         Get Started Today</a>
                 </div>

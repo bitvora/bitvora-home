@@ -1,10 +1,14 @@
+<?php
+include('../includes/config.php');
+?>
+
 <html lang="en">
 
 <head>
     <?php 
    $pageTitle = "Digital Content Platforms";
-   $pageURL = "https://signet.bitvora.com/solutions/digital-content";
-   $pageImage = "https://signet.bitvora.com/assets/bitvora.png";
+   $pageURL =  $config['base_url'] . "/solutions/digital-content";
+   $pageImage = $config['base_url'] . "/assets/bitvora.png";
   
   include('../includes/header.php'); ?>
 </head>
@@ -34,7 +38,7 @@
                         Open the doors for new, novel payout and payment methods for your Digital Content platform. Offer incredibly fast and flexible payment options for your creators, affiliates and partners with Bitcoin and the Lightning Network.
                     </p>
 
-                    <a href="https://console.signet.bitvora.com/auth/signup"
+                    <a href="<?php echo $config['base_url']; ?>/auth/signup"
                         class="bg-primary text-white font-bold px-2 py-3 lg:py-4 rounded-md text-[14px] lg:text-[17px] mt-5 hover:bg-darkBg w-full md:w-[200px] lg:w-[220px] flex text-center justify-center mx-auto">
                         Get Started For Free</a>
                 </div>

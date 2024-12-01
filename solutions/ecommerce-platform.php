@@ -1,10 +1,14 @@
+<?php
+include('../includes/config.php');
+?>
+
 <html lang="en">
 
 <head>
     <?php 
    $pageTitle = "E-commerce Platforms";
-   $pageURL = "https://signet.bitvora.com/solutions/ecommerce-platform";
-   $pageImage = "https://signet.bitvora.com/assets/bitvora.png";
+   $pageURL =  $config['base_url'] . "/solutions/ecommerce-platform";
+   $pageImage = $config['base_url'] . "/assets/bitvora.png";
   
   include('../includes/header.php'); ?>
 </head>
@@ -34,7 +38,7 @@
                         Increase your sales and profit margins by accepting the lower cost payment option with the Bitcoin and Lightning networks. Reach a new audience of enthusiastic customers who will love supporting your online store.
                     </p>
 
-                    <a href="https://console.signet.bitvora.com/auth/signup"
+                    <a href="<?php echo $config['base_url']; ?>/auth/signup"
                         class="bg-primary text-white font-bold px-2 py-3 lg:py-4 rounded-md text-[14px] lg:text-[17px] mt-5 hover:bg-darkBg w-full md:w-[200px] lg:w-[220px] flex text-center justify-center mx-auto">
                         Get Started For Free</a>
                 </div>

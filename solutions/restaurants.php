@@ -1,10 +1,14 @@
+<?php
+include('../includes/config.php');
+?>
+
 <html lang="en">
 
 <head>
     <?php 
    $pageTitle = "Restaurants";
-   $pageURL = "https://signet.bitvora.com/solutions/restaurants";
-   $pageImage = "https://signet.bitvora.com/assets/bitvora.png";
+   $pageURL =  $config['base_url'] . "/solutions/restaurants";
+   $pageImage = $config['base_url'] . "/assets/bitvora.png";
   
   include('../includes/header.php'); ?>
 </head>
@@ -34,7 +38,7 @@
                         As payment technology evolves, your options for keeping up with the latest customer trends have broadened, especially with Bitcoin. Offering Bitcoin as a payment option for diners will allow you to receive instant, fraud-free digital cash directly from customers. Customers will be able to send payments to you from their phone, with lower fees and without any chargeback risk to you.
                     </p>
 
-                    <a href="https://console.signet.bitvora.com/auth/signup"
+                    <a href="<?php echo $config['base_url']; ?>/auth/signup"
                         class="bg-primary text-white font-bold px-2 py-3 lg:py-4 rounded-md text-[14px] lg:text-[17px] mt-5 hover:bg-darkBg w-full md:w-[200px] lg:w-[220px] flex text-center justify-center mx-auto">
                         Get Started For Free</a>
                 </div>

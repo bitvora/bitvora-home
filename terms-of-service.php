@@ -3,13 +3,16 @@
 <head>
   <?php 
   $pageTitle = "Terms of Service";
-  $pageURL = "https://signet.bitvora.com/terms-of-service";
-  $pageImage = "https://signet.bitvora.com/assets/bitvora.png";
+  $pageURL =  $config['base_url'] . "/terms-of-service";
+  $pageImage = $config['base_url'] . "/assets/bitvora.png";
   include('includes/header.php'); ?>
 
 </head>
 
 <body>
+<?php
+include('./includes/config.php');
+?>
   <header class="flex justify-between items-center px-6 md:px-4 lg:px-6 py-5 container mx-auto">
     <div class="flex gap-9 md:gap-8 lg:gap-6 xl:gap-9 2xl:gap-9 items-center">
       <a class="logo" href="/">
@@ -17,7 +20,7 @@
       </a>
     </div>
 
-    <a href="https://console.signet.bitvora.com/auth/login"
+    <a href="<?php echo $config['base_url']; ?>/auth/login"
       class="text-white border-2 border-light hover:bg-darkBg hover:border-darkBg hover:font-medium border-opacity-20 px-5 py-2 md:px-4 lg:px-5 md:py-1.5 lg:py-2 2xl:px-6 2xl:py-3 rounded-md 2xl:rounded-xl text-[15px] md:text-[14px] lg:text-base 2xl:text-xl"
       target="_blank" rel="noopener noreferrer">Log In</a>
   </header>

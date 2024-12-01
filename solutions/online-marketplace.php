@@ -1,17 +1,21 @@
+<?php
+include('../includes/config.php');
+?>
+
 <html lang="en">
 
 <head>
     <?php 
    $pageTitle = "Online Marketplace";
-   $pageURL = "https://signet.bitvora.com/solutions/online-marketplace";
-   $pageImage = "https://signet.bitvora.com/assets/bitvora.png";
+   $pageURL =  $config['base_url'] . "/solutions/online-marketplace";
+   $pageImage = $config['base_url'] . "/assets/bitvora.png";
   
   include('../includes/header.php'); ?>
 </head>
 
 <body>
     <?php include('../includes/navbar.php'); ?>
-
+    
     <main class="w-full mb-8 pb-8">
         <section class="justify-between items-center lg:px-6 mb-6 lg:mb-2 container mx-auto w-full">
             <div class="relative w-full justify-center text-center flex flex-col-reverse lg:flex-col">
@@ -34,7 +38,7 @@
                         Every year, more and more online marketplaces are choosing to integrate Bitcoin and Lightning Network payments. Allowing instant, cheap, irreversible Bitcoin payments is bringing a whole new set of advantages to online marketplaces who wish to add Bitcoin as an additional form of payment alongside credit cards and Paypal, or completely replace their traditional payment flows.
                     </p>
 
-                    <a href="https://console.signet.bitvora.com/auth/signup"
+                    <a href="<?php echo $config['base_url']; ?>/auth/signup"
                         class="bg-primary text-white font-bold px-2 py-3 lg:py-4 rounded-md text-[14px] lg:text-[17px] mt-5 hover:bg-darkBg w-full md:w-[200px] lg:w-[220px] flex text-center justify-center mx-auto">
                         Get Started For Free</a>
                 </div>
