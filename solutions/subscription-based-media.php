@@ -70,32 +70,13 @@
                 </div>
             </div>
 
-
-          
-
             <div
                 class="flex flex-col lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12 lg:mt-12 lg:pt-12 mb-6 pb-6">
                 <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
-                    <img src=" /assets/time.svg" class="solutions-image hidden md:flex" />
-                    <img src=" /assets/time-mobile.svg" class="solutions-image md:hidden" />
+                    <img src=" /assets/document-left.svg" class="solutions-image hidden md:flex" />
+                    <img src=" /assets/document-mobile.svg" class="solutions-image md:hidden" />
                 </div>
 
-                <div class="col-span-3 w-full px-2 lg:px-1">
-                    <h4
-                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
-                        Instant Payments and Payouts
-                    </h4>
-
-                    <p
-                        class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
-                        Unlike common payment methods like credit/debit or PayPal transfers, Bitcoin Lightning payments can be sent instantly, without any potential hang-ups or additional steps needed for your customers or partners, such as affiliates. Attract subscription-hesitant customers by offering permissionless, instant pay-per-content payments, and pay out instantly to affiliates for each referral.
-
-                    </p>
-                </div>
-            </div>
-
-            <div
-                class="flex flex-col-reverse lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12 mb-6 pb-6">
                 <div class="col-span-3 w-full px-2 lg:px-1">
                     <h4
                         class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
@@ -108,10 +89,26 @@
 
                     </p>
                 </div>
+            </div>
+
+            <div
+                class="flex flex-col-reverse lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12 mb-6 pb-6">
+                <div class="col-span-3 w-full px-2 lg:px-1">
+                    <h4
+                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
+                        Instant Payments and Payouts
+                    </h4>
+
+                    <p
+                        class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
+                        Unlike common payment methods like credit/debit or PayPal transfers, Bitcoin Lightning payments can be sent instantly, without any potential hang-ups or additional steps needed for your customers or partners, such as affiliates. Attract subscription-hesitant customers by offering permissionless, instant pay-per-content payments, and pay out instantly to affiliates for each referral.
+
+                    </p>
+                </div>
 
                 <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
-                    <img src=" /assets/hand-shake.svg" class="solutions-image hidden md:flex" />
-                    <img src="/assets/hand-shake-mobile.svg" class="solutions-image md:hidden" />
+                    <img src=" /assets/time.svg" class="solutions-image hidden md:flex" />
+                    <img src="/assets/time-mobile.svg" class="solutions-image md:hidden" />
                 </div>
             </div>
 
