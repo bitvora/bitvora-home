@@ -155,7 +155,7 @@ include(__DIR__ . '/config.php');
                             <div class="mb-6">
                                 <a href="/solutions/lightning-network-integration.php"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
-                                    Lightning Network Integration
+                                    Crypto Exchanges
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path d="M13.165 4.81699L5.21005 12.7719" stroke="currentColor"
@@ -423,7 +423,7 @@ include(__DIR__ . '/config.php');
                         <div class="mb-6 w-full">
                             <a href="/solutions/lightning-network-integration.php"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
-                                Lightning Network Integration
+                                Crypto Exchanges
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13.165 4.81699L5.21005 12.7719" stroke="currentColor" stroke-width="1.5"

@@ -114,7 +114,7 @@ include('../includes/config.php');
                 <div class="col-span-3 w-full">
                     <h4
                         class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
-                        LOW Operational Overhead
+                        Low Operational Overhead
                     </h4>
 
                     <p
@@ -179,15 +179,45 @@ include('../includes/config.php');
             </div>
         </section>
 
-        <?php include('../includes/faq.php'); ?>
+        <?php 
+            $faqItems = [
+                [
+                    'question' => 'What are the benefits of using Bitcoin for online gambling?', 
+                    'answer' => 'Bitcoin delivers faster transactions, lower fees, enhanced privacy, and a secure gambling payment experience—far surpassing what traditional payment methods can offer. It also reduces fraud, with zero chargebacks, and enables instant payouts.'
+                ],
 
-        <?php
-        $faqItems = [
-        ['question' => 'Sample Question 1', 'answer' => 'Sample Answer 1'],
-        ['question' => 'Sample Question 2', 'answer' => 'Sample Answer 2'],
-    ];
+                [
+                    'question' => 'How secure are Bitcoin payments in online casinos?', 
+                    'answer' => "Bitcoin uses the world's most secure payment network, leveraging blockchain technology. Transactions are verified by a decentralized network, making it nearly impossible for fraudsters to tamper with them."
+                ],
 
-include('../includes/footer.php'); ?>
+                [
+                    'question' => 'How does Bitcoin reduce payment processing time?',
+                    'answer' => 'Bitcoin transactions, especially when using the Lightning Network, are processed instantly, eliminating the long waiting periods associated with traditional payments systems.',
+                ],
+
+                [
+                    'question' => 'Are Bitcoin payments anonymous?',
+                    'answer' => 'Bitcoin transactions provide a high level of privacy compared to traditional payments. Although not completely anonymous, they allow players to make deposits and withdrawals without the need to reveal sensitive personal information.',
+                ],
+
+                [
+                    'question' => 'Can Bitcoin help attract a global player base?',
+                    'answer' => "Yes. Bitcoin's global, borderless nature makes it easy to attract players from all over the world, without worrying about currency conversion or international fees, opening up new markets for your platform.",
+                ],
+
+            ];
+            
+            include('../includes/faq.php'); ?>
+
+<?php 
+        $header = "Learn More";
+        $text = "Ready to explore how Bitcoin payments can transform your online gaming business? Visit our <a class='underline'
+                  href='https://developers.bitvora.com/blog'>blog</a> for in-depth articles, watch our <a class='underline'
+                  href='https://developers.bitvora.com/blog'>video tutorials</a> for step-by-step guidance, or <a class='underline'
+                  href='mailto:support@bitvora.com'>contact us</a> to start integrating Bitcoin payments today.";
+        $buttonText = "Get Started with Bitcoin Payments";
+        include('../includes/footer.php'); ?>
 
         <script src="/js/main.js"></script>
         <script src="/js/menu.js"></script>

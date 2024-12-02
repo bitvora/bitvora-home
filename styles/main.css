@@ -826,6 +826,22 @@ video {
   margin-top: 90px;
 }
 
+.-mt-\[50px\] {
+  margin-top: -50px;
+}
+
+.-mt-\[90px\] {
+  margin-top: -90px;
+}
+
+.-mt-\[70px\] {
+  margin-top: -70px;
+}
+
+.-mt-\[60px\] {
+  margin-top: -60px;
+}
+
 .block {
   display: block;
 }
@@ -1378,6 +1394,10 @@ video {
 
 .pt-\[35px\] {
   padding-top: 35px;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 
 .text-left {
@@ -2701,6 +2721,14 @@ body::-webkit-scrollbar-track,
     padding-top: unset;
   }
 
+  .md\:pt-\[5px\] {
+    padding-top: 5px;
+  }
+
+  .md\:pt-\[65px\] {
+    padding-top: 65px;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -2854,6 +2882,30 @@ body::-webkit-scrollbar-track,
 
   .lg\:mt-\[100px\] {
     margin-top: 100px;
+  }
+
+  .lg\:mt-\[5px\] {
+    margin-top: 5px;
+  }
+
+  .lg\:mt-\[65px\] {
+    margin-top: 65px;
+  }
+
+  .lg\:mt-\[45px\] {
+    margin-top: 45px;
+  }
+
+  .lg\:-mt-\[50px\] {
+    margin-top: -50px;
+  }
+
+  .lg\:-mt-\[10px\] {
+    margin-top: -10px;
+  }
+
+  .lg\:-mt-\[100px\] {
+    margin-top: -100px;
   }
 
   .lg\:block {
@@ -3185,6 +3237,30 @@ body::-webkit-scrollbar-track,
     padding-top: 85px;
   }
 
+  .lg\:pt-\[5px\] {
+    padding-top: 5px;
+  }
+
+  .lg\:pt-\[65px\] {
+    padding-top: 65px;
+  }
+
+  .lg\:pt-\[0px\] {
+    padding-top: 0px;
+  }
+
+  .lg\:pt-\[40px\] {
+    padding-top: 40px;
+  }
+
+  .lg\:pt-\[4px\] {
+    padding-top: 4px;
+  }
+
+  .lg\:pt-\[45px\] {
+    padding-top: 45px;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -3310,6 +3386,22 @@ body::-webkit-scrollbar-track,
     margin-top: 85px;
   }
 
+  .xl\:mt-\[5px\] {
+    margin-top: 5px;
+  }
+
+  .xl\:mt-\[65px\] {
+    margin-top: 65px;
+  }
+
+  .xl\:mt-\[50px\] {
+    margin-top: 50px;
+  }
+
+  .xl\:mt-\[45px\] {
+    margin-top: 45px;
+  }
+
   .xl\:h-10 {
     height: 2.5rem;
   }
@@ -3400,6 +3492,34 @@ body::-webkit-scrollbar-track,
     padding-top: 85px;
   }
 
+  .xl\:pt-\[5px\] {
+    padding-top: 5px;
+  }
+
+  .xl\:pt-\[65px\] {
+    padding-top: 65px;
+  }
+
+  .xl\:pt-\[50px\] {
+    padding-top: 50px;
+  }
+
+  .xl\:pt-\[0px\] {
+    padding-top: 0px;
+  }
+
+  .xl\:pt-\[40px\] {
+    padding-top: 40px;
+  }
+
+  .xl\:pt-\[4px\] {
+    padding-top: 4px;
+  }
+
+  .xl\:pt-\[45px\] {
+    padding-top: 45px;
+  }
+
   .xl\:text-left {
     text-align: left;
   }
@@ -3475,6 +3595,22 @@ body::-webkit-scrollbar-track,
 
   .\32xl\:mt-\[85px\] {
     margin-top: 85px;
+  }
+
+  .\32xl\:mt-\[5px\] {
+    margin-top: 5px;
+  }
+
+  .\32xl\:mt-\[65px\] {
+    margin-top: 65px;
+  }
+
+  .\32xl\:mt-\[50px\] {
+    margin-top: 50px;
+  }
+
+  .\32xl\:mt-\[45px\] {
+    margin-top: 45px;
   }
 
   .\32xl\:h-12 {
@@ -3586,6 +3722,34 @@ body::-webkit-scrollbar-track,
 
   .\32xl\:pt-\[85px\] {
     padding-top: 85px;
+  }
+
+  .\32xl\:pt-\[5px\] {
+    padding-top: 5px;
+  }
+
+  .\32xl\:pt-\[65px\] {
+    padding-top: 65px;
+  }
+
+  .\32xl\:pt-\[50px\] {
+    padding-top: 50px;
+  }
+
+  .\32xl\:pt-\[0px\] {
+    padding-top: 0px;
+  }
+
+  .\32xl\:pt-\[40px\] {
+    padding-top: 40px;
+  }
+
+  .\32xl\:pt-\[4px\] {
+    padding-top: 4px;
+  }
+
+  .\32xl\:pt-\[45px\] {
+    padding-top: 45px;
   }
 
   .\32xl\:text-left {

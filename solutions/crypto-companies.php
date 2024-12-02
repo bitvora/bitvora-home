@@ -46,7 +46,7 @@ include('../includes/config.php');
         </section>
 
         <section
-            class="w-full px-6 py-5 container mx-auto mt-[90px] sm:mt-[80px] md:-mt-[45px] lg:mt-[85px] xl:mt-[85px] 2xl:mt-[85px] pt-[15px] sm:pt-[5px] md:pt-[85px] lg:pt-[85px] xl:pt-[85px] 2xl:pt-[85px] mb-8 pb-8">
+            class="w-full px-6 py-5 container mx-auto mt-[90px] sm:mt-[80px] md:-mt-[45px] lg:mt-[45px] xl:mt-[45px] 2xl:mt-[45px] pt-[15px] sm:pt-[5px] md:pt-[50px] lg:pt-[45px] xl:pt-[45px] 2xl:pt-[45px] mb-8 pb-8">
             <h4
                 class="text-white text-2xl sm:text-2xl 2xl:text-3xl font-normal uppercase mb-12 sm:mb-6 md:mb-8 pb-12 sm:pb-6 md:pb-8 tracking-normal leading-tight text-center justify-center md:w-8/12 lg:w-6/12 mx-auto">
                 How Bitcoin on the Lightning Network is enabling innovation for Crypto Companies

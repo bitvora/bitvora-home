@@ -36,7 +36,7 @@ include('../includes/config.php');
 
                     <p
                         class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center sm:font-medium justify-center">
-                        Unlock innovative new business models like per per inference or agent to agent payments, lower your costs with instant, low fee payments powered by Bitcoin and the Lightning network. Join thousands of AI companies making the switch to Bitcoin today.
+                        Unlock innovative new business models like pay per inference or agent to agent payments, lower your costs with instant, low fee payments powered by Bitcoin and the Lightning network. Join thousands of AI companies making the switch to Bitcoin today.
                     </p>
 
                     <a href="<?php echo $config['base_url']; ?>/auth/signup"
@@ -47,7 +47,7 @@ include('../includes/config.php');
         </section>
 
         <section
-            class="w-full px-6 py-5 container mx-auto mt-[90px] sm:mt-[80px] md:-mt-[45px] lg:mt-[85px] xl:mt-[85px] 2xl:mt-[85px] pt-[15px] sm:pt-[5px] md:pt-[85px] lg:pt-[85px] xl:pt-[85px] 2xl:pt-[85px] mb-8 pb-8">
+            class="w-full px-6 py-5 container mx-auto mt-[90px] sm:mt-[80px] md:-mt-[45px] lg:mt-[45px] xl:mt-[45px] 2xl:mt-[45px] pt-[15px] sm:pt-[5px] md:pt-[50px] lg:pt-[45px] xl:pt-[45px] 2xl:pt-[45px] mb-8 pb-8">
             <h4
                 class="text-white text-2xl sm:text-2xl 2xl:text-3xl font-normal uppercase mb-12 sm:mb-6 md:mb-8 pb-12 sm:pb-6 md:pb-8 tracking-normal leading-tight text-center justify-center md:w-8/12 lg:w-6/12 mx-auto">
                 How Bitcoin Improves Payments for AI Software
@@ -58,7 +58,7 @@ include('../includes/config.php');
                 <div class="col-span-3 w-full px-2 lg:px-1">
                     <h4
                         class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
-                        Per Per Inference
+                        Pay Per Inference
                     </h4>
 
                     <p
