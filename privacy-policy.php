@@ -1,3 +1,6 @@
+<?php
+include('includes/config.php');
+?>
 <html lang="en">
 
 <head>
@@ -9,9 +12,6 @@
 </head>
 
 <body>
-<?php
-include('./includes/config.php');
-?>
   <header class="flex justify-between items-center px-6 md:px-4 lg:px-6 py-5 container mx-auto">
     <div class="flex gap-9 md:gap-8 lg:gap-6 xl:gap-9 2xl:gap-9 items-center">
       <a class="logo" href="/">

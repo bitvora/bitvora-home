@@ -1,4 +1,4 @@
-<section
+le<section
     class="w-full justify-center items-center px-3 lg:px-6 py-3 lg:py-5 container mx-auto text-center -mt-[70px] lg:-mt-[100px]">
     <h4
         class="text-white text-xl sm:text-2xl 2xl:text-3xl font-normal uppercase mb-4 sm:mb-6 md:mb-8 pb-4 sm:pb-6 md:pb-8 tracking-normal leading-tight">
