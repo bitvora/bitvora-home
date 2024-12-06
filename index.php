@@ -4,17 +4,18 @@ include('includes/config.php');
 <html lang="en">
 
 <head>
-  <?php 
-  $pageTitle = "Bitcoin & Lightning API";
-  $pageURL = $config['base_url']; 
+  <?php
+  $pageTitle = "Bitcoin & Lightning API | Bitvora";
+  $pageURL = $config['base_url'];
   $pageImage = $config['base_url'] . "/assets/bitvora.png";
-  
+  $robots = "noindex, nofollow";
+
   include('includes/header.php'); ?>
 </head>
 
 <body>
   <?php include('includes/navbar.php'); ?>
-  
+
 
   <main class="mt-10 pt-10 sm:mt-0 md:mt-2 lg:mt-4 xl:mt-4 2xl:mt-4 w-full mb-8 pb-8">
     <section class="flex justify-between items-center px-6 py-5 container mx-auto w-full">
@@ -443,7 +444,7 @@ include('includes/config.php');
             </ul>
 
             <div class="mt-0 pt-0 w-full active-link">
-              <a href="<?php echo $config['base_url']; ?>/auth/signup"  target="_blank" rel="noopener noreferrer"
+              <a href="<?php echo $config['base_url']; ?>/auth/signup" target="_blank" rel="noopener noreferrer"
                 class="text-black bg-white px-4 py-3 rounded-md w-full flex text-center justify-center text-sm font-medium">
                 Get Started
               </a>
@@ -583,12 +584,12 @@ include('includes/config.php');
     </section>
   </main>
 
-  
+
 
   <?php include('includes/footer.php'); ?>
-  
 
-  
+
+
 </body>
 
 </html>

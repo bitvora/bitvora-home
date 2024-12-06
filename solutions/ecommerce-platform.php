@@ -5,12 +5,13 @@ include('../includes/config.php');
 <html lang="en">
 
 <head>
-    <?php 
-   $pageTitle = "E-commerce Platforms";
-   $pageURL =  $config['base_url'] . "/solutions/ecommerce-platform";
-   $pageImage = $config['base_url'] . "/assets/bitvora.png";
-  
-  include('../includes/header.php'); ?>
+    <?php
+    $pageTitle = "Bitcoin Payments for e-Commerce Platforms | Bitvora";
+    $pageURL =  $config['base_url'] . "/solutions/ecommerce-platform";
+    $pageImage = $config['base_url'] . "/assets/bitvora.png";
+    $robots = "noindex, nofollow";
+
+    include('../includes/header.php'); ?>
 </head>
 
 <body>
@@ -136,38 +137,38 @@ include('../includes/config.php');
 
         </section>
 
-        <?php 
-            $faqItems = [
-                [
-                    'question' => 'What are the advantages of Bitcoin Payments for Online Stores?', 
-                    'answer' => 'Bitcoin provides a faster, safer, more private and lower cost form of payment that improves the experience for both your users and your business. Remove the friction traditionally associated with credit card checkouts with Bitcoin.'
-                ],
+        <?php
+        $faqItems = [
+            [
+                'question' => 'What are the advantages of Bitcoin Payments for Online Stores?',
+                'answer' => 'Bitcoin provides a faster, safer, more private and lower cost form of payment that improves the experience for both your users and your business. Remove the friction traditionally associated with credit card checkouts with Bitcoin.'
+            ],
 
-                [
-                    'question' => 'How Do Bitcoin Payments Protect My Customer’s Privacy?', 
-                    'answer' => 'Unlike credit and debit cards, bitcoin payments do not have identities associated with them. Payments made over the lightning network do not appear on the blockchain and are impossible to determine the source of the payment. Blockchain payments are traceable, however they do not have any personally identifiable information associated with them.'
-                ],
+            [
+                'question' => 'How Do Bitcoin Payments Protect My Customer’s Privacy?',
+                'answer' => 'Unlike credit and debit cards, bitcoin payments do not have identities associated with them. Payments made over the lightning network do not appear on the blockchain and are impossible to determine the source of the payment. Blockchain payments are traceable, however they do not have any personally identifiable information associated with them.'
+            ],
 
-                [
-                    'question' => 'Can Bitcoin Payments support automatic monthly payments?',
-                    'answer' => 'While not yet widely supported, Bitcoin can support automatic monthly payments using a new protocol called Nostr Wallet Connect (NWC). As support for this new protocol increases, you’ll be able to benefit from predictable monthly payments from your users.',
-                ],
+            [
+                'question' => 'Can Bitcoin Payments support automatic monthly payments?',
+                'answer' => 'While not yet widely supported, Bitcoin can support automatic monthly payments using a new protocol called Nostr Wallet Connect (NWC). As support for this new protocol increases, you’ll be able to benefit from predictable monthly payments from your users.',
+            ],
 
-                [
-                    'question' => 'Will Accepting Bitcoin Payments Attract more Customers to my online store?',
-                    'answer' => 'Yes! There are dozens of websites that will promote your business to the bitcoin community when you start accepting bitcoin payments. Many bitcoin enthusiasts specifically seek out online stores that align with their values and will gladly support and promote you when you start accepting Bitcoin.',
-                ],
+            [
+                'question' => 'Will Accepting Bitcoin Payments Attract more Customers to my online store?',
+                'answer' => 'Yes! There are dozens of websites that will promote your business to the bitcoin community when you start accepting bitcoin payments. Many bitcoin enthusiasts specifically seek out online stores that align with their values and will gladly support and promote you when you start accepting Bitcoin.',
+            ],
 
-                [
-                    'question' => 'Will Bitcoin Payments Lower My Transaction Costs?',
-                    'answer' => 'Traditional card networks charge a base fee and up to 10% fees, depending on the industry, to process a credit card transaction. Accepting bitcoin payments with Bitvora can reduce these costs by up to 90% which can increase your profit margins or pass those savings along to your customers.',
-                ],
+            [
+                'question' => 'Will Bitcoin Payments Lower My Transaction Costs?',
+                'answer' => 'Traditional card networks charge a base fee and up to 10% fees, depending on the industry, to process a credit card transaction. Accepting bitcoin payments with Bitvora can reduce these costs by up to 90% which can increase your profit margins or pass those savings along to your customers.',
+            ],
 
-            ];
-            
-            include('../includes/faq.php'); ?>
+        ];
 
-        <?php 
+        include('../includes/faq.php'); ?>
+
+        <?php
         $header = "Power your online business with Bitcoin and Bitvora";
         $text = "Are you ready to lower your transaction costs, broaden your customer base and join the future of online payments? Sign up for a free account today or contact a Bitvora sales representative for more information on how Bitcoin payments can power your business today!";
         include('../includes/footer.php'); ?>

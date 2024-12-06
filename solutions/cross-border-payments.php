@@ -5,12 +5,13 @@ include('../includes/config.php');
 <html lang="en">
 
 <head>
-    <?php 
-   $pageTitle = "Cross Border Payment";
-   $pageURL =  $config['base_url'] . "/solutions/cross-border-payments";
-   $pageImage = $config['base_url'] . "/assets/bitvora.png";
-  
-  include('../includes/header.php'); ?>
+    <?php
+    $pageTitle = "Bitcoin for Cross Border Payments | Bitvora";
+    $pageURL =  $config['base_url'] . "/solutions/cross-border-payments";
+    $pageImage = $config['base_url'] . "/assets/bitvora.png";
+    $robots = "noindex, nofollow";
+
+    include('../includes/header.php'); ?>
 </head>
 
 <body>
@@ -153,38 +154,38 @@ include('../includes/config.php');
 
         </section>
 
-        <?php 
-            $faqItems = [
-                [
-                    'question' => 'What are the advantages of Bitcoin Payments for Cross Border Payments?', 
-                    'answer' => 'Bitcoin provides a faster, safer, more private and lower cost form of payment that improves the experience for both your users and your business. Offer far more flexible settlement options for your customers, partners and users than competitors who only provide traditional methods.'
-                ],
+        <?php
+        $faqItems = [
+            [
+                'question' => 'What are the advantages of Bitcoin Payments for Cross Border Payments?',
+                'answer' => 'Bitcoin provides a faster, safer, more private and lower cost form of payment that improves the experience for both your users and your business. Offer far more flexible settlement options for your customers, partners and users than competitors who only provide traditional methods.'
+            ],
 
-                [
-                    'question' => 'How Do Bitcoin Payments Protect My Customer’s Privacy?', 
-                    'answer' => 'Unlike bank wires, cheques or other international money transfer methods, bitcoin payments do not have identities associated with them. Payments made over the lightning network do not appear on the blockchain and are impossible to determine the source of the payment. Blockchain payments are traceable, however they do not have any personally identifiable information associated with them.'
-                ],
+            [
+                'question' => 'How Do Bitcoin Payments Protect My Customer’s Privacy?',
+                'answer' => 'Unlike bank wires, cheques or other international money transfer methods, bitcoin payments do not have identities associated with them. Payments made over the lightning network do not appear on the blockchain and are impossible to determine the source of the payment. Blockchain payments are traceable, however they do not have any personally identifiable information associated with them.'
+            ],
 
-                [
-                    'question' => 'Can Bitcoin Payments support automatic monthly payments?',
-                    'answer' => 'While not yet widely supported, Bitcoin can support automatic monthly payments using a new protocol called Nostr Wallet Connect (NWC). As support for this new protocol increases, you’ll be able to benefit from predictable monthly payments from your customers.',
-                ],
+            [
+                'question' => 'Can Bitcoin Payments support automatic monthly payments?',
+                'answer' => 'While not yet widely supported, Bitcoin can support automatic monthly payments using a new protocol called Nostr Wallet Connect (NWC). As support for this new protocol increases, you’ll be able to benefit from predictable monthly payments from your customers.',
+            ],
 
-                [
-                    'question' => 'Will Accepting Bitcoin Payments Attract more customers to my business?',
-                    'answer' => 'Yes! There are dozens of websites that will gladly promote your business to the bitcoin community when you start accepting bitcoin payments. Many bitcoin enthusiasts specifically seek out businesses that align with their values and will gladly support and promote your business and brand when you start accepting Bitcoin. Bitcoin is very international, you may find new customers, partners and users who want to, or even prefer to transact in Bitcoin, from all over the world.',
-                ],
+            [
+                'question' => 'Will Accepting Bitcoin Payments Attract more customers to my business?',
+                'answer' => 'Yes! There are dozens of websites that will gladly promote your business to the bitcoin community when you start accepting bitcoin payments. Many bitcoin enthusiasts specifically seek out businesses that align with their values and will gladly support and promote your business and brand when you start accepting Bitcoin. Bitcoin is very international, you may find new customers, partners and users who want to, or even prefer to transact in Bitcoin, from all over the world.',
+            ],
 
-                [
-                    'question' => 'Will Bitcoin Payments Lower My Transaction Costs?',
-                    'answer' => 'International money transfer services charge sizable fees to move money across borders; while banks offer expensive and slow wire transfers. Accepting bitcoin payments with Bitvora can reduce these costs by up to 90% to 95% which can increase your profit margins or pass those savings along to your customers.',
-                ],
+            [
+                'question' => 'Will Bitcoin Payments Lower My Transaction Costs?',
+                'answer' => 'International money transfer services charge sizable fees to move money across borders; while banks offer expensive and slow wire transfers. Accepting bitcoin payments with Bitvora can reduce these costs by up to 90% to 95% which can increase your profit margins or pass those savings along to your customers.',
+            ],
 
-            ];
-            
-            include('../includes/faq.php'); ?>
+        ];
 
-        <?php 
+        include('../includes/faq.php'); ?>
+
+        <?php
         $header = "Power your business with Bitcoin and Bitvora";
         $text = "Are you ready to lower your transaction costs, broaden your customer base and join the future of online payments? Sign up for a free account today or contact a Bitvora sales representative for more information on how Bitcoin payments can power your company today!";
         include('../includes/footer.php'); ?>

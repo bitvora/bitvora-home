@@ -5,12 +5,13 @@ include('../includes/config.php');
 <html lang="en">
 
 <head>
-    <?php 
-  $pageTitle = "Gambling and Online Casinos";
-  $pageURL =  $config['base_url'] . "/solutions/gambling-and-online-casinos";
-  $pageImage = $config['base_url'] . "/assets/bitvora.png";
-  
-  include('../includes/header.php'); ?>
+    <?php
+    $pageTitle = "Bitcoin Payments for Online Casinos | Bitvora";
+    $pageURL =  $config['base_url'] . "/solutions/gambling-and-online-casinos";
+    $pageImage = $config['base_url'] . "/assets/bitvora.png";
+    $robots = "noindex, nofollow";
+
+    include('../includes/header.php'); ?>
 </head>
 
 <body>
@@ -179,38 +180,38 @@ include('../includes/config.php');
             </div>
         </section>
 
-        <?php 
-            $faqItems = [
-                [
-                    'question' => 'What are the benefits of using Bitcoin for online gambling?', 
-                    'answer' => 'Bitcoin delivers faster transactions, lower fees, enhanced privacy, and a secure gambling payment experience—far surpassing what traditional payment methods can offer. It also reduces fraud, with zero chargebacks, and enables instant payouts.'
-                ],
+        <?php
+        $faqItems = [
+            [
+                'question' => 'What are the benefits of using Bitcoin for online gambling?',
+                'answer' => 'Bitcoin delivers faster transactions, lower fees, enhanced privacy, and a secure gambling payment experience—far surpassing what traditional payment methods can offer. It also reduces fraud, with zero chargebacks, and enables instant payouts.'
+            ],
 
-                [
-                    'question' => 'How secure are Bitcoin payments in online casinos?', 
-                    'answer' => "Bitcoin uses the world's most secure payment network, leveraging blockchain technology. Transactions are verified by a decentralized network, making it nearly impossible for fraudsters to tamper with them."
-                ],
+            [
+                'question' => 'How secure are Bitcoin payments in online casinos?',
+                'answer' => "Bitcoin uses the world's most secure payment network, leveraging blockchain technology. Transactions are verified by a decentralized network, making it nearly impossible for fraudsters to tamper with them."
+            ],
 
-                [
-                    'question' => 'How does Bitcoin reduce payment processing time?',
-                    'answer' => 'Bitcoin transactions, especially when using the Lightning Network, are processed instantly, eliminating the long waiting periods associated with traditional payments systems.',
-                ],
+            [
+                'question' => 'How does Bitcoin reduce payment processing time?',
+                'answer' => 'Bitcoin transactions, especially when using the Lightning Network, are processed instantly, eliminating the long waiting periods associated with traditional payments systems.',
+            ],
 
-                [
-                    'question' => 'Are Bitcoin payments anonymous?',
-                    'answer' => 'Bitcoin transactions provide a high level of privacy compared to traditional payments. Although not completely anonymous, they allow players to make deposits and withdrawals without the need to reveal sensitive personal information.',
-                ],
+            [
+                'question' => 'Are Bitcoin payments anonymous?',
+                'answer' => 'Bitcoin transactions provide a high level of privacy compared to traditional payments. Although not completely anonymous, they allow players to make deposits and withdrawals without the need to reveal sensitive personal information.',
+            ],
 
-                [
-                    'question' => 'Can Bitcoin help attract a global player base?',
-                    'answer' => "Yes. Bitcoin's global, borderless nature makes it easy to attract players from all over the world, without worrying about currency conversion or international fees, opening up new markets for your platform.",
-                ],
+            [
+                'question' => 'Can Bitcoin help attract a global player base?',
+                'answer' => "Yes. Bitcoin's global, borderless nature makes it easy to attract players from all over the world, without worrying about currency conversion or international fees, opening up new markets for your platform.",
+            ],
 
-            ];
-            
-            include('../includes/faq.php'); ?>
+        ];
 
-<?php 
+        include('../includes/faq.php'); ?>
+
+        <?php
         $header = "Learn More";
         $text = "Ready to explore how Bitcoin payments can transform your online gaming business? Visit our <a class='underline'
                   href='https://developers.bitvora.com/blog'>blog</a> for in-depth articles, watch our <a class='underline'

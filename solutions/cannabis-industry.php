@@ -5,12 +5,13 @@ include('../includes/config.php');
 <html lang="en">
 
 <head>
-    <?php 
-   $pageTitle = "Cannabis Industry";
-   $pageURL =  $config['base_url'] . "/solutions/cannabis-industry";
-   $pageImage = $config['base_url'] . "/assets/bitvora.png";
-  
-  include('../includes/header.php'); ?>
+    <?php
+    $pageTitle = "Bitcoin Payments for Cannabis Companies | Bitvora";
+    $pageURL =  $config['base_url'] . "/solutions/cannabis-industry";
+    $pageImage = $config['base_url'] . "/assets/bitvora.png";
+    $robots = "noindex, nofollow";
+
+    include('../includes/header.php'); ?>
 </head>
 
 <body>
@@ -135,38 +136,38 @@ include('../includes/config.php');
 
         </section>
 
-        <?php 
-            $faqItems = [
-                [
-                    'question' => 'What are the advantages of Bitcoin Payments in the Cannabis industry?', 
-                    'answer' => 'Bitcoin provides a faster, safer, more private and lower cost form of payment that cannot be blocked by banks. This benefits both the consumers and the businesses in the industry by removing the traditional financial institutions that haven’t been receptive to this growing industry.'
-                ],
+        <?php
+        $faqItems = [
+            [
+                'question' => 'What are the advantages of Bitcoin Payments in the Cannabis industry?',
+                'answer' => 'Bitcoin provides a faster, safer, more private and lower cost form of payment that cannot be blocked by banks. This benefits both the consumers and the businesses in the industry by removing the traditional financial institutions that haven’t been receptive to this growing industry.'
+            ],
 
-                [
-                    'question' => 'How Do Bitcoin Payments Protect My Customer’s Privacy?', 
-                    'answer' => 'Unlike credit and debit cards, bitcoin payments do not have identities associated with them. Payments made over the lightning network do not appear on the blockchain and are impossible to determine the source of the payment. Blockchain payments are traceable, however they do not have any personally identifiable information associated with them.'
-                ],
+            [
+                'question' => 'How Do Bitcoin Payments Protect My Customer’s Privacy?',
+                'answer' => 'Unlike credit and debit cards, bitcoin payments do not have identities associated with them. Payments made over the lightning network do not appear on the blockchain and are impossible to determine the source of the payment. Blockchain payments are traceable, however they do not have any personally identifiable information associated with them.'
+            ],
 
-                [
-                    'question' => 'How Secure are Bitcoin Payments for the Cannabis Industry?',
-                    'answer' => 'Bitcoin Payments are significantly more secure than traditional credit cards because access to a customer wallet cannot be obtained in the same ways traditional credit cards are stolen, with techniques such as carding, phishing or malicious websites that steal credit card numbers. This protects both consumers and businesses alike, leading to an improved and more secure customer experience.',
-                ],
+            [
+                'question' => 'How Secure are Bitcoin Payments for the Cannabis Industry?',
+                'answer' => 'Bitcoin Payments are significantly more secure than traditional credit cards because access to a customer wallet cannot be obtained in the same ways traditional credit cards are stolen, with techniques such as carding, phishing or malicious websites that steal credit card numbers. This protects both consumers and businesses alike, leading to an improved and more secure customer experience.',
+            ],
 
-                [
-                    'question' => 'Will Accepting Bitcoin Payments Attract more customers to my business?',
-                    'answer' => 'Yes! There are dozens of websites that will gladly promote your business to the bitcoin community when you start accepting bitcoin payments. Many bitcoin enthusiasts specifically seek out businesses that align with their values and will gladly support and promote your business when you start accepting Bitcoin.',
-                ],
+            [
+                'question' => 'Will Accepting Bitcoin Payments Attract more customers to my business?',
+                'answer' => 'Yes! There are dozens of websites that will gladly promote your business to the bitcoin community when you start accepting bitcoin payments. Many bitcoin enthusiasts specifically seek out businesses that align with their values and will gladly support and promote your business when you start accepting Bitcoin.',
+            ],
 
-                [
-                    'question' => 'Will Bitcoin Payments Lower My Transaction Costs?',
-                    'answer' => 'Traditional card networks charge a base fee and up to 10% fees, depending on the industry, to process a credit card transaction. Accepting bitcoin payments with Bitvora can reduce these costs by up to 90% which can increase your profit margins or pass those savings along to your customers.',
-                ],
+            [
+                'question' => 'Will Bitcoin Payments Lower My Transaction Costs?',
+                'answer' => 'Traditional card networks charge a base fee and up to 10% fees, depending on the industry, to process a credit card transaction. Accepting bitcoin payments with Bitvora can reduce these costs by up to 90% which can increase your profit margins or pass those savings along to your customers.',
+            ],
 
-            ];
-            
-            include('../includes/faq.php'); ?>
+        ];
 
-        <?php 
+        include('../includes/faq.php'); ?>
+
+        <?php
         $header = "Get Started With Bitcoin Payments Today";
         $text = "Are you ready to lower your transaction costs, broaden your customer base and join the future of online payments? Sign up for a free account today or contact a Bitvora sales representative for more information on how Bitcoin payments can power your cannabis business today!";
         include('../includes/footer.php'); ?>

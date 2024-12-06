@@ -5,12 +5,13 @@ include('../includes/config.php');
 <html lang="en">
 
 <head>
-    <?php 
-  $pageTitle = "Economy and Freelancing Platforms";
-  $pageURL =  $config['base_url'] . "/solutions/economy-and-freelancing-platforms";
-  $pageImage = $config['base_url'] . "/assets/bitvora.png";
-  
-  include('../includes/header.php'); ?>
+    <?php
+    $pageTitle = "Bitcoin Payments for Freelancers | Bitvora";
+    $pageURL =  $config['base_url'] . "/solutions/economy-and-freelancing-platforms";
+    $pageImage = $config['base_url'] . "/assets/bitvora.png";
+    $robots = "noindex, nofollow";
+
+    include('../includes/header.php'); ?>
 </head>
 
 <body>
@@ -95,20 +96,20 @@ include('../includes/config.php');
             <div class="flex flex-col lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12  mb-6 pb-6">
                 <div class="col-span-2 w-full flex justify-center items-center mb-2 pb-2 lg:mb-0 lg:pb-0">
                     <img src=" /assets/cash-left.svg" class="solutions-image hidden md:flex" />
-                <img src="/assets/cash-mobile.svg" class="solutions-image md:hidden" />
-            </div>
+                    <img src="/assets/cash-mobile.svg" class="solutions-image md:hidden" />
+                </div>
 
-            <div class="col-span-3 w-full px-2 lg:px-1">
-                <h4
-                    class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
-                    Minimize Costs
-                </h4>
+                <div class="col-span-3 w-full px-2 lg:px-1">
+                    <h4
+                        class="text-white text-lg sm:text-lg xl:text-2xl 2xl:text-3xl font-semibold lg:font-normal text-center lg:text-left lg:uppercase mb-2 pb-2 tracking-normal leading-tight">
+                        Minimize Costs
+                    </h4>
 
-                <p
-                    class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
-                    Running a freelance business is hard work and you shouldn’t have to lose 10% or more of your revenue in payment processing fees. Accepting payments with Bitvora are as low as 0.3%, which is up to 90% less expensive than traditional payment processors.
-                </p>
-            </div>
+                    <p
+                        class="text-light font-medium mb-6 pb-6 text-[14px] sm:text-[14px] lg:text-[16px] 2xl:text-[24px] text-center lg:text-left">
+                        Running a freelance business is hard work and you shouldn’t have to lose 10% or more of your revenue in payment processing fees. Accepting payments with Bitvora are as low as 0.3%, which is up to 90% less expensive than traditional payment processors.
+                    </p>
+                </div>
             </div>
 
             <div class="flex flex-col-reverse lg:grid lg:grid-cols-5 w-full lg:w-11/12 mx-auto lg:mb-12 lg:pb-12">
@@ -131,38 +132,38 @@ include('../includes/config.php');
             </div>
         </section>
 
-        <?php 
-            $faqItems = [
-                [
-                    'question' => 'What are the advantages of Bitcoin Payments for Freelancers?', 
-                    'answer' => 'Bitcoin provides a faster, safer, more private and lower cost form of payment that improves the experience for both your clients and your business. Remove the friction traditionally associated with traditional payment processors.'
-                ],
+        <?php
+        $faqItems = [
+            [
+                'question' => 'What are the advantages of Bitcoin Payments for Freelancers?',
+                'answer' => 'Bitcoin provides a faster, safer, more private and lower cost form of payment that improves the experience for both your clients and your business. Remove the friction traditionally associated with traditional payment processors.'
+            ],
 
-                [
-                    'question' => 'How Do Bitcoin Payments Protect My Client’s Privacy?', 
-                    'answer' => 'Unlike credit and debit cards, bitcoin payments do not have identities associated with them. Payments made over the lightning network do not appear on the blockchain and are impossible to determine the source of the payment. Blockchain payments are traceable, however they do not have any personally identifiable information associated with them.'
-                ],
+            [
+                'question' => 'How Do Bitcoin Payments Protect My Client’s Privacy?',
+                'answer' => 'Unlike credit and debit cards, bitcoin payments do not have identities associated with them. Payments made over the lightning network do not appear on the blockchain and are impossible to determine the source of the payment. Blockchain payments are traceable, however they do not have any personally identifiable information associated with them.'
+            ],
 
-                [
-                    'question' => 'Can Bitcoin Payments be blocked by financial institutions?',
-                    'answer' => 'Unlike traditional financial rails like credit cards, SWIFT, paypal and other institutions, Bitcoin payments cannot be stopped by any financial institution. This allows you to build your freelancing business anywhere in the world without risk of censorship.',
-                ],
+            [
+                'question' => 'Can Bitcoin Payments be blocked by financial institutions?',
+                'answer' => 'Unlike traditional financial rails like credit cards, SWIFT, paypal and other institutions, Bitcoin payments cannot be stopped by any financial institution. This allows you to build your freelancing business anywhere in the world without risk of censorship.',
+            ],
 
-                [
-                    'question' => 'Will Accepting Bitcoin Payments Attract more supporters to my freelance business?',
-                    'answer' => 'Yes! There are dozens of websites that will promote your services to the bitcoin community when you start accepting bitcoin payments. Many bitcoin enthusiasts specifically seek out freelancers that align with their values and will gladly support and promote you when you start accepting Bitcoin.',
-                ],
+            [
+                'question' => 'Will Accepting Bitcoin Payments Attract more supporters to my freelance business?',
+                'answer' => 'Yes! There are dozens of websites that will promote your services to the bitcoin community when you start accepting bitcoin payments. Many bitcoin enthusiasts specifically seek out freelancers that align with their values and will gladly support and promote you when you start accepting Bitcoin.',
+            ],
 
-                [
-                    'question' => 'Will Bitcoin Payments Lower My Transaction Costs?',
-                    'answer' => 'Traditional card networks charge a base fee and up to 10% fees, depending on the industry, to process a credit card transaction. Accepting bitcoin payments with Bitvora can reduce these costs by up to 90% which can increase your profit margins or pass those savings along to your clients.',
-                ],
+            [
+                'question' => 'Will Bitcoin Payments Lower My Transaction Costs?',
+                'answer' => 'Traditional card networks charge a base fee and up to 10% fees, depending on the industry, to process a credit card transaction. Accepting bitcoin payments with Bitvora can reduce these costs by up to 90% which can increase your profit margins or pass those savings along to your clients.',
+            ],
 
-            ];
-            
-            include('../includes/faq.php'); ?>
+        ];
 
-        <?php 
+        include('../includes/faq.php'); ?>
+
+        <?php
         $header = "Power your charity with Bitcoin and Bitvora";
         $text = "Are you ready to lower your transaction costs, broaden your customer base and join the future of online payments? Sign up for a free account today or contact a Bitvora sales representative for more information on how Bitcoin payments can power your freelance business today!";
         include('../includes/footer.php'); ?>
