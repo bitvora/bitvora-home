@@ -1,5 +1,5 @@
 <?php
-include(__DIR__ . '/config.php'); 
+include(__DIR__ . '/config.php');
 ?>
 
 <div class=" w-screen z-[1000] fixed bg-black">
@@ -57,7 +57,7 @@ include(__DIR__ . '/config.php');
 
                         <div class="col-span-2">
                             <div class="mb-6">
-                                <a href="/solutions/gambling-and-online-casinos.php"
+                                <a href="/solutions/gambling-and-online-casinos"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                     Gambling and Online Casinos
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -71,7 +71,7 @@ include(__DIR__ . '/config.php');
                             </div>
 
                             <div class="mb-6">
-                                <a href="/solutions/economy-and-freelancing-platforms.php"
+                                <a href="/solutions/economy-and-freelancing-platforms"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">Gig
                                     Economy & Freelancing Platforms
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -83,10 +83,10 @@ include(__DIR__ . '/config.php');
                                     </svg></a>
                             </div>
 
-                          
+
 
                             <div class="mb-6">
-                                <a href="/solutions/charitable-organisations-ngos.php"
+                                <a href="/solutions/charitable-organisations-ngos"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">Charitable
                                     Organizations & NGOs
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -99,7 +99,7 @@ include(__DIR__ . '/config.php');
                             </div>
 
                             <div class="mb-6">
-                                <a href="/solutions/hotels.php"
+                                <a href="/solutions/hotels"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">Hotels
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -111,7 +111,7 @@ include(__DIR__ . '/config.php');
                             </div>
 
                             <div class="mb-6">
-                                <a href="/solutions/digital-content.php"
+                                <a href="/solutions/digital-content"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                     Digital Content Platforms
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -124,7 +124,7 @@ include(__DIR__ . '/config.php');
                             </div>
 
                             <div>
-                                <a href="/solutions/ecommerce-platform.php"
+                                <a href="/solutions/ecommerce-platform"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">E-commerce
                                     Platforms
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -139,7 +139,7 @@ include(__DIR__ . '/config.php');
 
                         <div class="col-span-2">
                             <div class="mb-6">
-                                <a href="/solutions/online-marketplace.php"
+                                <a href="/solutions/online-marketplace"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                     Online Marketplaces (P2P or B2C)
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -153,7 +153,7 @@ include(__DIR__ . '/config.php');
                             </div>
 
                             <div class="mb-6">
-                                <a href="/solutions/lightning-network-integration.php"
+                                <a href="/solutions/lightning-network-integration"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                     Crypto Exchanges
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -166,7 +166,7 @@ include(__DIR__ . '/config.php');
                             </div>
 
                             <div class="mb-6">
-                                <a href="/solutions/subscription-based-media.php"
+                                <a href="/solutions/subscription-based-media"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                     Subscription-based Media
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -179,7 +179,7 @@ include(__DIR__ . '/config.php');
                             </div>
 
                             <div class="mb-6">
-                                <a href="/solutions/cross-border-payments.php"
+                                <a href="/solutions/cross-border-payments"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                     Cross-border Payments
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -192,7 +192,7 @@ include(__DIR__ . '/config.php');
                             </div>
 
                             <div>
-                                <a href="/solutions/cannabis-industry.php"
+                                <a href="/solutions/cannabis-industry"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                     Cannabis Industry
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -207,7 +207,7 @@ include(__DIR__ . '/config.php');
 
                         <div class="col-span-2">
                             <div class="mb-6">
-                                <a href="/solutions/payment-processors.php"
+                                <a href="/solutions/payment-processors"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                     Payment Processors
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -221,7 +221,7 @@ include(__DIR__ . '/config.php');
                             </div>
 
                             <div class="mb-6">
-                                <a href="/solutions/crypto-companies.php"
+                                <a href="/solutions/crypto-companies"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                     Crypto Companies
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -234,7 +234,7 @@ include(__DIR__ . '/config.php');
                             </div>
 
                             <div class="mb-6">
-                                <a href="/solutions/saas-companies.php"
+                                <a href="/solutions/saas-companies"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                     SaaS Companies
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -247,7 +247,7 @@ include(__DIR__ . '/config.php');
                             </div>
 
                             <div class="mb-6">
-                                <a href="/solutions/ai-companies.php"
+                                <a href="/solutions/ai-companies"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                     AI Companies
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -260,7 +260,7 @@ include(__DIR__ . '/config.php');
                             </div>
 
                             <div class="mb-6">
-                                <a href="/solutions/restaurants.php"
+                                <a href="/solutions/restaurants"
                                     class="text-white font-medium text-[13px] sm:text-[13px] lg:text-[14px] 2xl:text-[15px] text-left hover:text-light flex items-center gap-1">
                                     Restaurants
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -272,7 +272,7 @@ include(__DIR__ . '/config.php');
                                     </svg></a>
                             </div>
 
-                            
+
                         </div>
                     </div>
                 </div>
@@ -280,7 +280,7 @@ include(__DIR__ . '/config.php');
         </div>
 
         <div class="flex items-center gap-3">
-            <a href="<?php echo $config['base_url']; ?>/auth/login" 
+            <a href="<?php echo $config['base_url']; ?>/auth/login"
                 class="text-white border-2 border-light hover:bg-darkBg hover:border-darkBg hover:font-medium border-opacity-20 px-5 py-2 md:px-4 lg:px-5 md:py-1.5 lg:py-2 2xl:px-6 2xl:py-3 rounded-md 2xl:rounded-xl text-[15px] md:text-[14px] lg:text-base 2xl:text-xl"
                 target="_blank" rel="noopener noreferrer">Log In</a>
 
@@ -335,7 +335,7 @@ include(__DIR__ . '/config.php');
 
                     <div class="w-full px-10 py-6 mb-10 pb-10">
                         <div class="mb-6 w-full">
-                            <a href="/solutions/gambling-and-online-casinos.php"
+                            <a href="/solutions/gambling-and-online-casinos"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 Gambling and Online Casinos
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -349,7 +349,7 @@ include(__DIR__ . '/config.php');
                         </div>
 
                         <div class="mb-6 w-full">
-                            <a href="/solutions/economy-and-freelancing-platforms.php"
+                            <a href="/solutions/economy-and-freelancing-platforms"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 Gig Economy & Freelancing Platforms
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -362,10 +362,10 @@ include(__DIR__ . '/config.php');
                             </a>
                         </div>
 
-                       
+
 
                         <div class="mb-6 w-full">
-                            <a href="/solutions/charitable-organisations-ngos.php"
+                            <a href="/solutions/charitable-organisations-ngos"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 Charitable Organizations & NGOs
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -379,7 +379,7 @@ include(__DIR__ . '/config.php');
                         </div>
 
                         <div class="mb-6 w-full">
-                            <a href="/solutions/ecommerce-platform.php"
+                            <a href="/solutions/ecommerce-platform"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 E-commerce Platforms
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -393,7 +393,7 @@ include(__DIR__ . '/config.php');
                         </div>
 
                         <div class="mb-6 w-full">
-                            <a href="/solutions/hotels.php"
+                            <a href="/solutions/hotels"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 Hotels
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -407,7 +407,7 @@ include(__DIR__ . '/config.php');
                         </div>
 
                         <div class="mb-6 w-full">
-                            <a href="/solutions/online-marketplace.php"
+                            <a href="/solutions/online-marketplace"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 Online Marketplaces (P2P or B2C)
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -421,7 +421,7 @@ include(__DIR__ . '/config.php');
                         </div>
 
                         <div class="mb-6 w-full">
-                            <a href="/solutions/lightning-network-integration.php"
+                            <a href="/solutions/lightning-network-integration"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 Crypto Exchanges
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -435,7 +435,7 @@ include(__DIR__ . '/config.php');
                         </div>
 
                         <div class="mb-6 w-full">
-                            <a href="/solutions/subscription-based-media.php"
+                            <a href="/solutions/subscription-based-media"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 Subscription-based Media
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -449,7 +449,7 @@ include(__DIR__ . '/config.php');
                         </div>
 
                         <div class="mb-6 w-full">
-                            <a href="/solutions/cross-border-payments.php"
+                            <a href="/solutions/cross-border-payments"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 Cross-border Payments
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -463,7 +463,7 @@ include(__DIR__ . '/config.php');
                         </div>
 
                         <div class="mb-6 w-full">
-                            <a href="/solutions/cannabis-industry.php"
+                            <a href="/solutions/cannabis-industry"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 Cannabis Industry
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -477,7 +477,7 @@ include(__DIR__ . '/config.php');
                         </div>
 
                         <div class="mb-6 w-full">
-                            <a href="/solutions/payment-processors.php"
+                            <a href="/solutions/payment-processors"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 Payment Processors
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -491,7 +491,7 @@ include(__DIR__ . '/config.php');
                         </div>
 
                         <div class="mb-6 w-full">
-                            <a href="/solutions/crypto-companies.php"
+                            <a href="/solutions/crypto-companies"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 Crypto Companies
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -505,7 +505,7 @@ include(__DIR__ . '/config.php');
                         </div>
 
                         <div class="mb-6 w-full">
-                            <a href="/solutions/saas-companies.php"
+                            <a href="/solutions/saas-companies"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 SaaS Companies
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -519,7 +519,7 @@ include(__DIR__ . '/config.php');
                         </div>
 
                         <div class="mb-6 w-full">
-                            <a href="/solutions/ai-companies.php"
+                            <a href="/solutions/ai-companies"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 AI Companies
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -533,7 +533,7 @@ include(__DIR__ . '/config.php');
                         </div>
 
                         <div class="mb-6 w-full">
-                            <a href="/solutions/restaurants.php"
+                            <a href="/solutions/restaurants"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 Restaurants
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -547,7 +547,7 @@ include(__DIR__ . '/config.php');
                         </div>
 
                         <div class="mb-6 w-full">
-                            <a href="/solutions/digital-content.php"
+                            <a href="/solutions/digital-content"
                                 class="text-white text-left font-semibold text-[13px] hover:text-light flex items-center gap-1">
                                 Digital Content Platforms
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
