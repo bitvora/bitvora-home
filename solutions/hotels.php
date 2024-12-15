@@ -39,7 +39,7 @@ include('../includes/config.php');
                         Bitcoin payments are the newest wave of innovation that the hotel and lodging industry is poised to benefit from. The instant nature of payments over Bitcoin’s Lightning Network means you can get paid immediately for bookings, removing the need for lengthy settlement processes between your card processor and your bank account.
                     </p>
 
-                    <a href="<?php echo $config['base_url']; ?>/auth/signup"
+                    <a href="<?php echo $config['console_url']; ?>/auth/signup"
                         class="bg-primary text-white font-bold px-2 py-3 lg:py-4 rounded-md text-[14px] lg:text-[17px] mt-5 hover:bg-darkBg w-full md:w-[200px] lg:w-[220px] flex text-center justify-center mx-auto">
                         Get Started For Free</a>
                 </div>

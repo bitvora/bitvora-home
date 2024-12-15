@@ -33,7 +33,7 @@ include('../includes/config.php');
                         creating a smooth, frustration-free experience for players and operators.
                     </p>
 
-                    <a href="<?php echo $config['base_url']; ?>/auth/signup"
+                    <a href="<?php echo $config['console_url']; ?>/auth/signup"
                         class="bg-primary text-white font-bold px-7 py-4 lg:py-[18px] rounded-md text-[14px] lg:text-[17px] mt-5 hover:bg-darkBg w-full lg:w-[300px] flex text-center justify-center">Explore
                         Bitcoin Payments</a>
                 </div>

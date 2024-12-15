@@ -39,7 +39,7 @@ include('../includes/config.php');
                         As time has gone on, more and more cryptocurrencies have launched and competed for users’ mindshare. However, Bitcoin still remains the original, largest and highest volume cryptocurrency demanded by the market. While Bitcoin is often misunderstood to be too slow and expensive to operate with a high throughput business or with low transaction sizes, with the advent of the Lightning Network, Bitcoin can be used in manners that are often faster and cheaper than most other cryptocurrencies. With Bitvora we enable you to use Bitcoin to its full potential in your crypto company.
                     </p>
 
-                    <a href="<?php echo $config['base_url']; ?>/auth/signup"
+                    <a href="<?php echo $config['console_url']; ?>/auth/signup"
                         class="bg-primary text-white font-bold px-2 py-3 lg:py-4 rounded-md text-[14px] lg:text-[17px] mt-5 hover:bg-darkBg w-full md:w-[200px] lg:w-[220px] flex text-center justify-center mx-auto">
                         Get Started For Free</a>
                 </div>

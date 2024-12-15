@@ -39,7 +39,7 @@ include('../includes/config.php');
                         Offer secure, low cost and instant payments in your cannabis business by accepting Bitcoin over the lightning network. Enjoy the benefits of open, permissionless payments that keep your business going without risk of deplatforming.
                     </p>
 
-                    <a href="<?php echo $config['base_url']; ?>/auth/signup"
+                    <a href="<?php echo $config['console_url']; ?>/auth/signup"
                         class="bg-primary text-white font-bold px-2 py-3 lg:py-4 rounded-md text-[14px] lg:text-[17px] mt-5 hover:bg-darkBg w-full md:w-[200px] lg:w-[220px] flex text-center justify-center mx-auto">
                         Get Started Today</a>
                 </div>
