@@ -14,15 +14,15 @@ include(__DIR__ . '/config.php');
                 class="text-white text-[15px] md:text-base lg:text-base 2xl:text-xl hover:text-gold uppercase hidden lg:block nav-link">Home</a>
             <div class="h-3 w-[1px] 2xl:h-4 2xl:w-[2px] bg-light bg-opacity-40 hidden lg:block"></div>
 
-            <a href="#product"
+            <a href="/#product"
                 class="text-white text-[15px] md:text-base lg:text-base 2xl:text-xl hover:text-gold uppercase hidden lg:block nav-link">Product</a>
             <div class="h-3 w-[1px] 2xl:h-4 2xl:w-[2px] bg-light bg-opacity-40 hidden lg:block"></div>
 
-            <a href="#pricing"
+            <a href="/#pricing"
                 class="text-white text-[15px] md:text-base lg:text-base 2xl:text-xl hover:text-gold uppercase hidden lg:block nav-link">Pricing</a>
             <div class="h-3 w-[1px] 2xl:h-4 2xl:w-[2px] bg-light bg-opacity-40 hidden lg:block"></div>
 
-            <a href="#developers"
+            <a href="/#developers"
                 class="text-white text-[15px] md:text-base lg:text-base 2xl:text-xl hover:text-gold uppercase hidden lg:block nav-link">Developers</a>
             <div class="h-3 w-[1px] 2xl:h-4 2xl:w-[2px] bg-light bg-opacity-40 hidden lg:block"></div>
 
