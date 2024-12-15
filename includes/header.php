@@ -16,7 +16,7 @@ include(__DIR__ . '/config.php');
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="keywords" content="bitvora" />
-<meta name="robots" content="<?php echo isset($robots) ? htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8') : 'index, follow'; ?>" />
+<meta name="robots" content="<?php echo isset($robots) ? htmlspecialchars($robots, ENT_QUOTES, 'UTF-8') : 'index, follow'; ?>" />
 <meta property="og:title" content="<?php echo isset($pageTitle) ? htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8') : 'Bitcoin & Lightning API'; ?>" />
 <meta property="og:url" content="<?php echo isset($pageURL) ? htmlspecialchars($pageURL, ENT_QUOTES, 'UTF-8') : $config['base_url']; ?>" />
 <meta property="og:type" content="website" />
