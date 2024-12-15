@@ -8,7 +8,7 @@ include('includes/config.php');
   $pageTitle = "Bitcoin & Lightning API | Bitvora";
   $pageURL = $config['base_url'];
   $pageImage = $config['base_url'] . "/assets/bitvora.png";
-  $robots = "noindex, nofollow";
+  $robots = "index, follow";
 
   include('includes/header.php'); ?>
 </head>

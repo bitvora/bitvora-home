@@ -9,7 +9,7 @@ include('../includes/config.php');
     $pageTitle = "Bitcoin Payments for Online Casinos | Bitvora";
     $pageURL =  $config['base_url'] . "/solutions/gambling-and-online-casinos";
     $pageImage = $config['base_url'] . "/assets/bitvora.png";
-    $robots = "noindex, nofollow";
+    $robots = "index, follow";
 
     include('../includes/header.php'); ?>
 </head>

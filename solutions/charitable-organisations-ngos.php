@@ -9,7 +9,7 @@ include('../includes/config.php');
     $pageTitle = "Bitcoin Payments for Charities & NGOs | Bitvora";
     $pageURL =  $config['base_url'] . "/solutions/charitable-organisations-ngos";
     $pageImage = $config['base_url'] . "/assets/bitvora.png";
-    $robots = "noindex, nofollow";
+    $robots = "index, follow";
 
     include('../includes/header.php'); ?>
 </head>
