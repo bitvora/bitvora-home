@@ -84,7 +84,7 @@ include(__DIR__ . '/config.php');
 
           <div class="mb-2">
             <a href="https://x.com/bitvora" target="_blank" rel="noopener noreferrer"
-              class="text-white font-bold text-sm text-left capitalize mb-2 hover:text-light">Twitter</a>
+              class="text-white font-bold text-sm text-left capitalize mb-2 hover:text-light">X (Twitter)</a>
           </div>
 
 
@@ -93,6 +93,16 @@ include(__DIR__ . '/config.php');
             <a href="https://njump.me/npub13tv0rauv3cgevcjzu298eg2ujd4j82ve6haer0lyu3rjuttw4a2s6mgea0" target="_blank"
               rel="noopener noreferrer"
               class="text-white font-bold text-sm text-left capitalize mb-2 hover:text-light">Nostr</a>
+          </div>
+          <div class="mb-2">
+            <a href="https://t.me/bitvora_devs" target="_blank"
+              rel="noopener noreferrer"
+              class="text-white font-bold text-sm text-left capitalize mb-2 hover:text-light">Telegram</a>
+          </div>
+          <div class="mb-2">
+            <a href="https://discord.gg/drdnYyQA4v" target="_blank"
+              rel="noopener noreferrer"
+              class="text-white font-bold text-sm text-left capitalize mb-2 hover:text-light">Discord</a>
           </div>
         </div>
       </div>
