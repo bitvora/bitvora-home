@@ -172,6 +172,18 @@ include(__DIR__ . '/config.php');
             rel="noopener noreferrer"
             class="text-white font-light text-base sm:text-base lg:text-lg 2xl:text-xl text-left capitalize mb-2 hover:text-light">Nostr</a>
         </div>
+
+        <div class="mb-2">
+          <a href="https://t.me/bitvora_devs" target="_blank"
+            rel="noopener noreferrer"
+            class="text-white font-light text-base sm:text-base lg:text-lg 2xl:text-xl text-left capitalize mb-2 hover:text-light">Telegram</a>
+        </div>
+
+        <div class="mb-2">
+          <a href="https://discord.gg/drdnYyQA4v" target="_blank"
+            rel="noopener noreferrer"
+            class="text-white font-light text-base sm:text-base lg:text-lg 2xl:text-xl text-left capitalize mb-2 hover:text-light">Discord</a>
+        </div>
       </div>
 
       <div class="col-span-1 sm:col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1 2xl:col-span-1">
