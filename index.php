@@ -444,7 +444,7 @@ include('includes/config.php');
             </ul>
 
             <div class="mt-0 pt-0 w-full active-link">
-              <a href="<?php echo $config['base_url']; ?>/auth/signup" target="_blank" rel="noopener noreferrer"
+              <a href="<?php echo $config['console_url']; ?>/auth/signup" target="_blank" rel="noopener noreferrer"
                 class="text-black bg-white px-4 py-3 rounded-md w-full flex text-center justify-center text-sm font-medium">
                 Get Started
               </a>

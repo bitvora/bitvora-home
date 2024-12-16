@@ -27,7 +27,7 @@ include(__DIR__ . '/config.php');
           Contact Sales
         </button>
 
-        <a href="<?php echo $config['base_url']; ?>/auth/signup" target="_blank" rel="noopener noreferrer"
+        <a href="<?php echo $config['console_url']; ?>/auth/signup" target="_blank" rel="noopener noreferrer"
           class="bg-primary text-white px-5 md:px-3 lg:px-5 py-3.5 md:py-3 lg:py-3.5 rounded-md text-sm md:text-[13px] lg:text-sm 2xl:text-lg mt-5 hover:bg-darkBg flex text-center justify-center font-semibold">
           <?php echo isset($buttonText) ? $buttonText : 'Get
             Started with Bitvora'; ?>
