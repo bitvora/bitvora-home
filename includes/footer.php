@@ -206,7 +206,7 @@ include(__DIR__ . '/config.php');
       </div>
     </div>
   </section>
-  <div class="w-full text-center mt-6 mb-4 px-4">
+  <div class="w-full text-center mb-4 px-4">
     <p class="text-sm text-gray-500">
       Bitvora Inc. is a registered money services business. FINTRAC Registration Number: C100000334
     </p>
