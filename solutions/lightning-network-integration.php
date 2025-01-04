@@ -9,7 +9,7 @@ include('../includes/config.php');
     $pageTitle = "Lightning API for Crypto Exchanges | Bitvora";
     $pageURL =  $config['base_url'] . "/solutions/lightning-network-integration";
     $pageImage = $config['base_url'] . "/assets/bitvora.png";
-    $robots = "index, follow";
+    $robots = "noindex, nofollow";
 
     include('../includes/header.php'); ?>
 </head>

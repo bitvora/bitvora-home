@@ -9,7 +9,7 @@ include('../includes/config.php');
     $pageTitle = "Bitcoin Payments for Media Companies | Bitvora";
     $pageURL =  $config['base_url'] . "/solutions/subscription-based-media";
     $pageImage = $config['base_url'] . "/assets/bitvora.png";
-    $robots = "index, follow";
+    $robots = "noindex, nofollow";
 
     include('../includes/header.php'); ?>
 </head>

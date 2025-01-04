@@ -1,6 +1,6 @@
 <?php
 $config = [
-    'base_url' => 'https://bitvora.com',
-    'api_url' => 'https://api.bitvora.com',
-    'console_url' => 'https://console.bitvora.com',
+    'base_url' => 'https://signet.bitvora.com',
+    'api_url' => 'https://api.signet.bitvora.com',
+    'console_url' => 'https://console.signet.bitvora.com',
 ];

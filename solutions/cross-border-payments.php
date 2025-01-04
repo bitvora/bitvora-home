@@ -9,7 +9,7 @@ include('../includes/config.php');
     $pageTitle = "Bitcoin for Cross Border Payments | Bitvora";
     $pageURL =  $config['base_url'] . "/solutions/cross-border-payments";
     $pageImage = $config['base_url'] . "/assets/bitvora.png";
-    $robots = "index, follow";
+    $robots = "noindex, nofollow";
 
     include('../includes/header.php'); ?>
 </head>
