@@ -4,7 +4,7 @@ include('includes/config.php');
 <html lang="en">
 
 <head>
-  <?php 
+  <?php
   $pageTitle = "Terms of Service";
   $pageURL =  $config['base_url'] . "/terms-of-service";
   $pageImage = $config['base_url'] . "/assets/bitvora.png";
@@ -21,7 +21,7 @@ include('includes/config.php');
       </a>
     </div>
 
-    <a href="<?php echo $config['base_url']; ?>/auth/login"
+    <a href="<?php echo $config['console_url']; ?>/auth/login"
       class="text-white border-2 border-light hover:bg-darkBg hover:border-darkBg hover:font-medium border-opacity-20 px-5 py-2 md:px-4 lg:px-5 md:py-1.5 lg:py-2 2xl:px-6 2xl:py-3 rounded-md 2xl:rounded-xl text-[15px] md:text-[14px] lg:text-base 2xl:text-xl"
       target="_blank" rel="noopener noreferrer">Log In</a>
   </header>
